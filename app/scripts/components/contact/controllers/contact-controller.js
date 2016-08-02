@@ -8,17 +8,39 @@
  */
 angular.module('myAppContact')
   .controller('ContactCtrl', function ($scope, Author, ContactService) {
-    console.log(Author.hello());
-    console.log(ContactService.hello());
 
+    $scope.AuthorSet = false;
     $scope.getContactInfo = function () {
       ContactService.getContactInfo()
         .then(function (response) {
-          if (response.error || !response) {
+          if (!response || response.error) {
             $scope.error = true;
           } else {
-            $scope.user = response.response;
+            Author.init(response.response);
+            $scope.AuthorSet = true;
           }
         });
-    }
+    };
+
+    $scope.getName = function () {
+      return Author.getName();
+    };
+    $scope.getEmail = function () {
+      return Author.getEmail();
+    };
+    $scope.getPhone = function () {
+      return Author.getPhone();
+    };
+    $scope.getAge = function () {
+      return Author.getAge();
+    };
+
+    $scope.increaseAge = function () {
+      Author.increaseAge();
+    };
+
+    $scope.decreaseAge = function () {
+      Author.decreaseAge();
+    };
+
   });

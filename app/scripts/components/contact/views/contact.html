@@ -2,7 +2,17 @@
 
 <p>User:</p>
 <p ng-if="error" class="label-danger">Error!</p>
-<p ng-if="user">{{user.name}}</p>
-
+<div ng-if="AuthorSet">
+  Author:
+  <ul>
+    <li>Name: {{getName()}}</li>
+    <li>Email: {{getEmail()}}</li>
+    <li>Phone: {{getPhone()}}</li>
+    <li>Age: {{getAge()}}</li>
+  </ul>
+  <a ng-click="increaseAge()" class="btn btn-primary">+</a>
+  <a ng-click="decreaseAge()" class="btn btn-primary">-</a>
+</div>
 <button ng-click="getContactInfo()"
-        class="btn btn-lg btn-danger">Get</button>
+        class="btn btn-lg btn-danger">Get
+</button>

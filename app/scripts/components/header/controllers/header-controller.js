@@ -20,7 +20,7 @@ angular.module('myAppHeader')
       },
       {
         name: 'Contact',
-        sref: 'main'
+        sref: 'contact'
       }
     ];
 
