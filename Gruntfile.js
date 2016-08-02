@@ -80,7 +80,8 @@ module.exports = function (grunt) {
             'app/**/router.js',
             'app/**/*-module.js',
             'app/**/*.js',
-            'app/**/*.css'
+            'app/**/*.css',
+            'bower_components/**/*.css'
           ]
         }
       }
