@@ -29,3 +29,21 @@
   <h4>Karma</h4>
   <p>Spectacular Test Runner for JavaScript.</p>
 </div>
+
+
+
+
+<h2>TODO</h2>
+
+
+<p>Items to do: </p>
+<div ng-repeat="todo in todoList">
+  <p>{{todo}} <span class="glyphicon glyphicon-remove"
+                    ng-click="removeTodo($index)"></span></p>
+</div>
+
+<input ng-model="item">
+<button class="btn btn-lg btn-info"
+        ng-click="addTodo(item)">Add</button>
+<button class="btn btn-lg btn-danger"
+        ng-click="removeTodo(item)">Remove</button>
