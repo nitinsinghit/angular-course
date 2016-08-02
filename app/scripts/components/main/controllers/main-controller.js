@@ -30,6 +30,11 @@ angular.module('myAppMain')
       }
     };
 
+    this.x = '2';
+    var self = this;
+    this.function = function () {
+      console.log(self.x);
+    };
 
 
     /*

@@ -10,13 +10,19 @@ angular.module('myApp')
 
     // Define routes in main application using stateProvider
     $stateProvider
-    // Define state 'main'
+      // Define state 'main'
       .state('main', {
         url: '/main',
         templateUrl: 'scripts/components/main/views/main.html',
         controller: 'MainCtrl'
       })
-
+      // Define state 'contact'
+      .state('contact', {
+        url: '/contact',
+        templateUrl: 'scripts/components/contact/views/contact.html',
+        css: 'scripts/components/contact/views/contact.css',
+        controller: 'ContactCtrl'
+      })
       // Define state 'about'
       .state('about', {
         url: '/about',

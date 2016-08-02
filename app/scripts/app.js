@@ -14,6 +14,7 @@ angular.module('myApp', [
     'ngSanitize',
     'ngTouch',
     'myAppAbout',
+    'myAppContact',
     'myAppMain',
     'myAppHeader',
     'myAppFooter'

@@ -1,0 +1,8 @@
+<p>I'm a contact Page</p>
+
+<p>User:</p>
+<p ng-if="error" class="label-danger">Error!</p>
+<p ng-if="user">{{user.name}}</p>
+
+<button ng-click="getContactInfo()"
+        class="btn btn-lg btn-danger">Get</button>

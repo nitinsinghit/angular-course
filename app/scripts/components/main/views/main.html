@@ -38,7 +38,7 @@
 
 <p>Items to do: </p>
 <div ng-repeat="todo in todoList">
-  <p>{{todo}} <span class="glyphicon glyphicon-remove"
+  <p ng-bind="todo"> <span class="glyphicon glyphicon-remove"
                     ng-click="removeTodo($index)"></span></p>
 </div>
 
