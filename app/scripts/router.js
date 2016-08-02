@@ -14,14 +14,15 @@ angular.module('myApp')
       .state('main', {
         url: '/main',
         templateUrl: 'scripts/components/main/views/main.html',
-        controllerUrl: 'scripts/components/main/controllers/main-controller.js'
+        controller: 'MainCtrl'
       })
 
       // Define state 'about'
       .state('about', {
         url: '/about',
         templateUrl: 'scripts/components/about/views/about.html',
-        controllerUrl: 'scripts/components/about/controllers/about-controller.js'
+        css: 'scripts/components/about/views/about.css',
+        controller: 'AboutCtrl'
       });
 
 

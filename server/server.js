@@ -1,11 +1,22 @@
 var express = require('express');
+var bodyParser = require('body-parser');
+var cors = require('cors');
+
 var app = express();
 
 var contactInfo = require('./database/contact-info.json');
 
-console.log(__dirname);
+app.use(bodyParser.json());
+app.use(cors());
+
 app.get('/contact', function (req, res) {
-  res.send(contactInfo);
+  console.log('Contact pinged');
+  res.json(contactInfo);
+  //res.send(contactInfo);
+});
+
+app.post('/message', function (req, res) {
+  console.log(req.body);
 });
 
 app.use('/', express.static(__dirname + '/public'));
