@@ -7,12 +7,19 @@
   <meta name="viewport" content="width=device-width">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <!-- build:css(.) styles/vendor.css -->
-  <!-- bower:css -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-  <!-- endbower -->
+  <!-- injector:css -->
+  <link rel="stylesheet" href="scripts/components/about/views/about.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="../bower_components/angular/angular-csp.css">
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- endinjector -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
-  <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
 </head>
 <body>
@@ -47,6 +54,7 @@
 <script src="scripts/components/main/main-module.js"></script>
 <script src="scripts/components/about/controllers/about-controller.js"></script>
 <script src="scripts/components/about/factory/user-factory.js"></script>
+<script src="scripts/components/about/filters/telephone-filter.js"></script>
 <script src="scripts/components/about/services/about-service.js"></script>
 <script src="scripts/components/footer/controllers/footer-controller.js"></script>
 <script src="scripts/components/footer/directives/footer-directive.js"></script>
