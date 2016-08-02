@@ -1,0 +1,23 @@
+{
+  "name": "Patrick Opie",
+  "id": 111,
+  "phone": "1238889999",
+  "email": "patrick.opie@deloite.com",
+  "active": true,
+  "dogs": [
+    "huskies",
+    "labs",
+    "pugs",
+    "pigs"
+  ],
+  "other": {
+    "nick_name": "Patrick",
+    "birthday": null,
+    "annual_income": "Infinity",
+    "corporate_passwords": [
+      "buckets4days",
+      "rollingstonesShotJFK@88!>.",
+      "texastoastA&M419.com"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>Patrick's Sample App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<div>
+  <header></header>
+  <app></app>
+  <footer></footer>
+</div>
+
+
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-touch/angular-touch.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- injector:js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/router.js"></script>
+<script src="scripts/components/about/about-module.js"></script>
+<script src="scripts/components/footer/footer-module.js"></script>
+<script src="scripts/components/header/header-module.js"></script>
+<script src="scripts/components/main/main-module.js"></script>
+<script src="scripts/components/about/controllers/about-controller.js"></script>
+<script src="scripts/components/footer/controllers/footer-controller.js"></script>
+<script src="scripts/components/footer/directives/footer-directive.js"></script>
+<script src="scripts/components/header/controllers/header-controller.js"></script>
+<script src="scripts/components/header/directives/header-directive.js"></script>
+<script src="scripts/components/main/controllers/main-controller.js"></script>
+<!-- endinjector -->
+</body>
+</html>
