@@ -29,6 +29,12 @@ angular.module('myApp')
         templateUrl: 'scripts/components/about/views/about.html',
         css: 'scripts/components/about/views/about.css',
         controller: 'AboutCtrl'
+      })
+      // Define state 'shop'
+      .state('shop', {
+        url: '/shop',
+        abstract: true,
+        template: '<ui-view>'
       });
 
 

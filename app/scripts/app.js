@@ -7,17 +7,21 @@
  * Main module of the application.
  */
 angular.module('myApp', [
+    // Vendor
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ui.router',
     'ngSanitize',
     'ngTouch',
+
+    // Src Modules
     'myAppAbout',
     'myAppContact',
     'myAppMain',
     'myAppHeader',
-    'myAppFooter'
+    'myAppFooter',
+    'myAppShopping'
   ])
   .directive('app', function () {
     return {

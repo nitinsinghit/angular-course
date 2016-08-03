@@ -9,7 +9,7 @@
       <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
         <ul class="nav navbar-nav">
-          <li ng-repeat="route in routes">
+          <li ng-repeat="route in routes" ng-class="{ active: isActive(route.url)}">
             <a ui-sref="{{route.sref}}">{{route.name}}</a>
           </li>
         </ul>

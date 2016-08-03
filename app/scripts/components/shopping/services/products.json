@@ -1,0 +1,82 @@
+[
+  {
+    "group": "group 1",
+    "name": "item 1",
+    "price": "10.00"
+  },
+  {
+    "group": "group 1",
+    "name": "item 2",
+    "price": "12.50"
+  },
+  {
+    "group": "group 1",
+    "name": "item 3",
+    "price": "15.00"
+  },
+  {
+    "group": "group 1",
+    "name": "item 4",
+    "price": "20.00"
+  },
+  {
+    "group": "group 2",
+    "name": "item 1",
+    "price": "10.00"
+  },
+  {
+    "group": "group 2",
+    "name": "item 2",
+    "price": "12.50"
+  },
+  {
+    "group": "group 2",
+    "name": "item 3",
+    "price": "15.00"
+  },
+  {
+    "group": "group 2",
+    "name": "item 4",
+    "price": "20.00"
+  },
+  {
+    "group": "group 3",
+    "name": "item 1",
+    "price": "10.00"
+  },
+  {
+    "group": "group 3",
+    "name": "item 2",
+    "price": "12.50"
+  },
+  {
+    "group": "group 3",
+    "name": "item 3",
+    "price": "15.00"
+  },
+  {
+    "group": "group 3",
+    "name": "item 4",
+    "price": "20.00"
+  },
+  {
+    "group": "group 4",
+    "name": "item 1",
+    "price": "10.00"
+  },
+  {
+    "group": "group 4",
+    "name": "item 2",
+    "price": "12.50"
+  },
+  {
+    "group": "group 4",
+    "name": "item 3",
+    "price": "15.00"
+  },
+  {
+    "group": "group 4",
+    "name": "item 4",
+    "price": "20.00"
+  }
+]

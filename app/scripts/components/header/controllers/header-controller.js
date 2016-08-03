@@ -7,21 +7,35 @@
  * # Controller for the Header page
  */
 angular.module('myAppHeader')
-  .controller('HeaderCtrl', function ($scope) {
+  .controller('HeaderCtrl', function ($scope, $location) {
 
     $scope.routes = [
       {
         name: 'Main',
-        sref: 'main'
+        sref: 'main',
+        url: '/main'
       },
       {
         name: 'About',
-        sref: 'about'
+        sref: 'about',
+        url: '/about'
       },
       {
         name: 'Contact',
-        sref: 'contact'
+        sref: 'contact',
+        url: '/contact'
+      },
+      {
+        name: 'Shop',
+        sref: 'shop.plp',
+        url: '/shop/product-landing-page'
+        //can't use 'shop' since it is an abstract state.
+        // We must instead direct the user to one of its children
       }
     ];
+
+    $scope.isActive = function (viewLocation) {
+      return viewLocation === $location.path();
+    };
 
   });
