@@ -1,0 +1,58 @@
+{
+  "xbox_one": [
+    {
+      "name": "Bill Gates One",
+      "price": 15
+    },
+    {
+      "name": "Bill Gates Two",
+      "price": 25
+    },
+    {
+      "name": "Bill Gates Three",
+      "price": 35
+    }
+  ],
+  "ps4": [
+    {
+      "name": "Ball Stick",
+      "price": 10
+    },
+    {
+      "name": "Accessory Two",
+      "price": 18
+    },
+    {
+      "name": "Accessory Three",
+      "price": 23
+    }
+  ],
+  "nintendo": [
+    {
+      "name": "Accessory One",
+      "price": 10
+    },
+    {
+      "name": "Accessory Two",
+      "price": 10
+    },
+    {
+      "name": "Accessory Thre",
+      "price": 10
+    }
+  ],
+  "hello_kitty_island_adventures": [
+    {
+      "name": "Accessory One",
+      "price": 10
+    },
+    {
+      "name": "Accessory Two",
+      "price": 10
+    },
+    {
+      "name": "Accessory Thre",
+      "price": 10
+    }
+  ]
+}

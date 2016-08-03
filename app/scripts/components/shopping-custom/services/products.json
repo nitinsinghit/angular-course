@@ -1,0 +1,82 @@
+[
+  {
+    "group": "xbox_one",
+    "name": "Halo 9",
+    "price": "10.00"
+  },
+  {
+    "group": "xbox_one",
+    "name": "Madden 2092",
+    "price": "12.50"
+  },
+  {
+    "group": "xbox_one",
+    "name": "Call of Duty",
+    "price": "15.00"
+  },
+  {
+    "group": "xbox_one",
+    "name": "Forza",
+    "price": "20.00"
+  },
+  {
+    "group": "ps4",
+    "name": "The stick of truth",
+    "price": "10.00"
+  },
+  {
+    "group": "ps4",
+    "name": "item 2",
+    "price": "12.50"
+  },
+  {
+    "group": "ps4",
+    "name": "item 3",
+    "price": "15.00"
+  },
+  {
+    "group": "ps4",
+    "name": "item 4",
+    "price": "20.00"
+  },
+  {
+    "group": "nintendo",
+    "name": "Super Smash Mouth",
+    "price": "10.00"
+  },
+  {
+    "group": "nintendo",
+    "name": "item 2",
+    "price": "12.50"
+  },
+  {
+    "group": "nintendo",
+    "name": "item 3",
+    "price": "15.00"
+  },
+  {
+    "group": "nintendo",
+    "name": "item 4",
+    "price": "20.00"
+  },
+  {
+    "group": "hello_kitty_island_adventures",
+    "name": "Volcano Splash",
+    "price": "10.00"
+  },
+  {
+    "group": "hello_kitty_island_adventures",
+    "name": "Kitty Town",
+    "price": "12.50"
+  },
+  {
+    "group": "hello_kitty_island_adventures",
+    "name": "Seattle",
+    "price": "15.00"
+  },
+  {
+    "group": "hello_kitty_island_adventures",
+    "name": "Cow Town",
+    "price": "20.00"
+  }
+]

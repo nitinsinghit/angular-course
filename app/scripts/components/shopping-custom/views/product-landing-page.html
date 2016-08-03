@@ -1,11 +1,13 @@
-<p>Landing Page</p>
+<h2>Product Landing Page</h2>
+<div class="info">
+  <h3>Select a Product</h3>
 
-<div ng-repeat="product in products" ng-click="selectProduct(product)">
-  <a>{{product.name}}</a>
-  <p>{{product.group}}</p>
-  <p>{{product.price | currency}}</p>
-</div>
-
-<div ng-if="product">
-  <p>Selected Product: {{product}}</p>
+  <div class="product vtop soft" ng-repeat="product in products">
+    <a ng-click="selectProduct(product)">
+      <div class="smallBox"><img src="http://placehold.it/92x92"></div>
+      <span class="manuName">{{product.group}}</span>
+      <span class="prodName">{{product.name}}</span>
+    </a>
+    <span class="prodPrice">{{product.price | currency}}</span>
+  </div>
 </div>

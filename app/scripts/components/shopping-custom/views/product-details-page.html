@@ -1,2 +1,60 @@
-<p>Details Page</p>
-<p>{{params}}</p>
+
+<button class="btn btn-lg btn-primary" ng-click="back()">
+  <span class="glyphicon glyphicon-fast-backward"></span> Back
+</button>
+<div class="info">
+  <h3>Product Detail Page</h3>
+</div>
+<hr>
+<div class="botBorder clearFix">
+  <div class="productImage">
+    <img src="http://placehold.it/300x300">
+    <ul class="imageList">
+      <li ng-repeat="accessory in accessories"><a><img alt="accessory.name" src="http://placehold.it/92x92"></a></li>
+    </ul>
+    <span><a href="#"><b>View More</b></a></span>
+  </div>
+  <div class="overview">
+    <h1>{{params.name}}</h1>
+    <h2>{{params.group}}</h2>
+    <span class="rating">
+          <img src="http://www.jimmybeanswool.com/secure-html/onlineec/images/stars/4_5StarBlue09.gif">
+        </span>
+    <h3>{{params.price | currency}}</h3>
+    <span>50+ available</span>
+    <span class="description">Sample Description</span>
+
+    <select class="prodSelect">
+      <option selected>Current Product</option>
+      <option>Product Option 2</option>
+      <option>Product Option 3</option>
+      <option>Product Option 4</option>
+      <option>Product Option 5</option>
+    </select>
+
+    <div class="button add">Add to Cart</div>
+    <div class="button wish">Add to Wishlist</div>
+
+  </div>
+
+  <div class="info">
+    <h3>Product Information</h3>
+    <ul class="specs">
+      <li><h5>Weight:</h5> Worsted</li>
+      <li><h5>Gauge (sts. / inch):</h5> 4.5</li>
+      <li><h5>US Needle:</h5> 8</li>
+      <li><h5>Yardage:</h5> 220</li>
+      <li><h5>Primary Fiber:</h5> 100% Wool</li>
+      <li><h5>Specific Fiber:</h5> 100% Pure New Wool</li>
+      <li><h5>Physical Weight:</h5> 100g</li>
+      <li><h5>Washing Instructions:</h5> Hand Wash</li>
+    </ul>
+
+    <div class="description">
+      The classic Cascade 220 Wool is the perfect combination of affordability, quality and versatility that can be used
+      for a wide range of projects. Each hank of this worsted weight 100% pure wool comes with a generous 220 yards.
+      With a nearly unlimited color palette to chose from, you are sure to find the perfect color(s) for your next
+      project! Note: this yarn is great for felting projects too!
+    </div>
+  </div>
+</div>

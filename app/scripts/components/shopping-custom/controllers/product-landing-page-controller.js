@@ -1,18 +1,16 @@
 angular.module('myAppShoppingCustom')
-  .controller('PLPCustomCtrl', function ($scope, $state) {
+  .controller('PLPCustomCtrl', function ($scope, $state, ShoppingCartCustomService) {
 
-    $scope.products = [
-      {
-        'name': 'test1',
-        'group': 'test1',
-        'price': 10
-      },
-      {
-        'name': 'test2',
-        'group': 'test2',
-        'price': 15
-      }
-    ];
+    this.init = function () {
+      ShoppingCartCustomService.getProducts().then(
+        function (response) {
+          console.log(response);
+          $scope.products = response.data;
+        }
+      )
+    };
+
+    this.init();
 
     $scope.selectProduct = function (product) {
       $state.go('shop-custom.pdp', {obj: product});
