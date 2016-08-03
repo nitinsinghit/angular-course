@@ -22,6 +22,13 @@ angular.module('myAppContact')
         });
     };
 
+    $scope.sendMessage = function (message) {
+      var obj = {
+        message: message
+      };
+      ContactService.sendMessage(obj);
+    };
+
     $scope.getName = function () {
       return Author.getName();
     };

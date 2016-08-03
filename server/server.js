@@ -17,6 +17,7 @@ app.get('/contact', function (req, res) {
 
 app.post('/message', function (req, res) {
   console.log(req.body);
+  res.send(true);
 });
 
 app.use('/', express.static(__dirname + '/public'));
