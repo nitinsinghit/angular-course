@@ -9,7 +9,7 @@ angular.module('myAppShopping')
       $scope.params.group = $filter('MakeUppercase')($scope.params.group);
     }
 
-    $scope.description = ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam elementum est, at vestibulum augue consequat at. Donec euismod convallis felis. Nam sed molestie dolor. Proin in tortor sed augue consequat viverra.'];
+    $scope.description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam elementum est, at vestibulum augue consequat at. Donec euismod convallis felis. Nam sed molestie dolor. Proin in tortor sed augue consequat viverra.';
     $scope.array = [
       'addasjd Helol jsdhshd sdjasd',
       'shdahsd dahsdh askdka',
