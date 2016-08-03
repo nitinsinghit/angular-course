@@ -1,0 +1,11 @@
+<p>Landing Page</p>
+
+<div ng-repeat="product in products" ng-click="selectProduct(product)">
+  <a>{{product.name}}</a>
+  <p>{{product.group}}</p>
+  <p>{{product.price | currency}}</p>
+</div>
+
+<div ng-if="product">
+  <p>Selected Product: {{product}}</p>
+</div>

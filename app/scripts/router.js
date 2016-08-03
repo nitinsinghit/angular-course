@@ -35,6 +35,11 @@ angular.module('myApp')
         url: '/shop',
         abstract: true,
         template: '<ui-view>'
+      })
+      .state('shop-custom', {
+        url: '/shop-custom',
+        abstract: true,
+        template: '<ui-view>'
       });
 
 

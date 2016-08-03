@@ -31,6 +31,11 @@ angular.module('myAppHeader')
         url: '/shop/product-landing-page'
         //can't use 'shop' since it is an abstract state.
         // We must instead direct the user to one of its children
+      },
+      {
+        name: 'Custom Shopping',
+        sref: 'shop-custom.plp',
+        url: '/shop-custom/product-landing-page'
       }
     ];
 

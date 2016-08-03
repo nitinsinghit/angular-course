@@ -50,4 +50,46 @@ angular.module('myAppContact')
       Author.decreaseAge();
     };
 
+
+    var promise1 = ContactService.sendMessage('hi');
+    var promise2 = ContactService.sendMessage('hi');
+    var promise3 = ContactService.sendMessage('hi');
+    var promise4 = ContactService.sendMessage('hi');
+    var promise5 = ContactService.sendMessage('hi');
+    var promise6 = ContactService.sendMessage('hi');
+
+    $q.all([promise1, promise2, promise3/*, ...*/])
+      .then(function (response1, response2 /*, ... */) {
+
+      })
+
+    function asyncFun1() {
+      return $q(function (resolve, reject) {
+        setTimeout(function () {
+          if (condition) {
+            resolve('Hello');
+          } else {
+            reject('Bye');
+          }
+        }, 2000);
+      });
+    }
+
+    function asyncFun2(callback) {
+      setTimeout(function () {
+        if (condition) {
+          callback('Hello');
+        } else {
+          callback('Bye');
+        }
+      }, 2000);
+    }
+
+    asyncFun1().then(function () {
+
+    });
+    asyncFun2(function (response) {
+
+    });
+
   });

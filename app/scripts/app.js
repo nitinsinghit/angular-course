@@ -21,7 +21,8 @@ angular.module('myApp', [
     'myAppMain',
     'myAppHeader',
     'myAppFooter',
-    'myAppShopping'
+    'myAppShopping',
+    'myAppShoppingCustom'
   ])
   .directive('app', function () {
     return {
