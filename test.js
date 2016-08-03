@@ -1,19 +1,16 @@
-var str = 'some string';
-var num = 10;
-var num2 = 10.1;
-var arr = ['one', 'two', 'three'];
-var obj = {
-  one: 1,
-  two: 2,
-  three: 3
-};
+var array = ['addasjd Helol jsdhshd sdjasd',
+  'shdahsd dahsdh askdka',
+  'kksjdsd wdghds adsda'];
 
-function add (a,b, callback) {
-  setTimeout(function () {
-    callback(a+b);
-  }, 3000);
+
+function filter(array) {
+  for (var i = 0; i < array.length; i++) {
+    var arr = array[i].split(' ');
+    for (var j = 0; j < arr.length; j++) {
+      arr[j] = arr[j].replace(arr[j][0], arr[j][0].toUpperCase());
+    }
+    arr= arr.join(' ');
+    array[i] = arr;
+  }
+  return array;
 }
-
-add(3,5, function (result) {
-  console.log(result);
-});

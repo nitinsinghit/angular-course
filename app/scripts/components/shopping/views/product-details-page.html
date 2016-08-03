@@ -19,12 +19,13 @@
   <div class="overview">
     <h1>{{params.name}}</h1>
     <h2>{{params.group}}</h2>
+    <h3>{{array | MakeUppercase}}</h3>
     <span class="rating">
           <img src="http://www.jimmybeanswool.com/secure-html/onlineec/images/stars/4_5StarBlue09.gif">
         </span>
     <h3>{{params.price | currency}}</h3>
       <span>50+ available</span>
-      <span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam elementum est, at vestibulum augue consequat at. Donec euismod convallis felis. Nam sed molestie dolor. Proin in tortor sed augue consequat viverra.</span>
+      <span class="description">{{description}}</span>
 
       <select class="prodSelect">
         <option selected>Current Product</option>

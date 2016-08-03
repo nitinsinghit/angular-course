@@ -4,6 +4,7 @@ angular.module('myAppShopping')
   .controller('PLPCtrl', function ($scope, $state, ShoppingService) {
 
     $scope.selectItem = function (item) {
+      // Go to state shop.pdp and pass in product
       $state.go('shop.pdp', {obj: item});
     };
 

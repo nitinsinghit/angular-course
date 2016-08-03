@@ -7,7 +7,7 @@
  * # service for the contact page
  */
 angular.module('myAppContact')
-  .service('ContactService', function ($http) {
+  .service('ContactService', function ($http, $q) {
 
     this.getContactInfo = function () {
       return $http.get('http://localhost:3000/contact')
