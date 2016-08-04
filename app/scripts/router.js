@@ -47,6 +47,11 @@ angular.module('myApp')
         url: '/shop-custom',
         abstract: true,
         template: '<ui-view>'
+      })
+      .state('calculator', {
+        url: '/calculator',
+        templateUrl: 'scripts/components/calculator/views/calculator.html',
+        controller: 'CalculatorCtrl'
       });
 
 

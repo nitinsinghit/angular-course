@@ -41,7 +41,12 @@ angular.module('myAppHeader')
         name: 'Chat',
         sref: 'chat',
         url: '/chat'
-      }
+      },
+      {
+        name: 'Calculator',
+        sref: 'calculator',
+        url: '/calculator'
+      },
     ];
 
     $scope.isActive = function (viewLocation) {
