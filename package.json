@@ -20,6 +20,7 @@
     "grunt-google-cdn": "^0.4.3",
     "grunt-injector": "^1.0.1",
     "grunt-jscs": "^3.0.1",
+    "grunt-karma": "^2.0.0",
     "grunt-newer": "^1.2.0",
     "grunt-ng-annotate": "^2.0.2",
     "grunt-postcss": "^0.8.0",

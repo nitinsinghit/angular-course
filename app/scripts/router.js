@@ -30,12 +30,19 @@ angular.module('myApp')
         css: 'scripts/components/about/views/about.css',
         controller: 'AboutCtrl'
       })
+      // Define state 'chat'
+      .state('chat', {
+        url: '/chat',
+        templateUrl: 'scripts/components/chat/views/chat.html',
+        controller: 'ChatCtrl'
+      })
       // Define state 'shop'
       .state('shop', {
         url: '/shop',
         abstract: true,
         template: '<ui-view>'
       })
+      // Define state 'shop-custom'
       .state('shop-custom', {
         url: '/shop-custom',
         abstract: true,

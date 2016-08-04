@@ -7,6 +7,7 @@
 // use this if you want to recursively match all subfolders:
 // 'test/spec/**/*.js'
 
+
 module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-injector');
@@ -20,6 +21,8 @@ module.exports = function (grunt) {
     ngtemplates: 'grunt-angular-templates',
     cdnify: 'grunt-google-cdn'
   });
+
+  var serveStatic = require('serve-static');
 
   // Configurable paths for the application
   var appConfig = {
@@ -69,7 +72,7 @@ module.exports = function (grunt) {
     // Inject files dynamically
     injector: {
       options: {
-        destFile : 'app/index.html',
+        destFile: 'app/index.html',
         addRootSlash: false,
         relative: true
       },
@@ -97,7 +100,6 @@ module.exports = function (grunt) {
         options: {
           open: true,
           middleware: function (connect) {
-            var serveStatic = require('serve-static');
             return [
               serveStatic('.tmp'),
               connect().use(
@@ -111,6 +113,28 @@ module.exports = function (grunt) {
               serveStatic(appConfig.app)
             ];
           }
+        }
+      },
+      test: {
+        options: {
+          port: 9001,
+          middleware: function (connect) {
+            return [
+              serveStatic('.tmp'),
+              serveStatic('test'),
+              connect().use(
+                '/bower_components',
+                serveStatic('./bower_components')
+              ),
+              serveStatic(appConfig.app)
+            ];
+          }
+        }
+      },
+      dist: {
+        options: {
+          open: true,
+          base: '<%= yeoman.dist %>'
         }
       }
     },
@@ -172,6 +196,22 @@ module.exports = function (grunt) {
       app: {
         src: ['app/index.html'],
         ignorePath: /\.\.\//
+      },
+      test: {
+        devDependencies: true,
+        src: '<%= karma.unit.configFile %>',
+        ignorePath: /\.\.\//,
+        fileTypes: {
+          js: {
+            block: /(([\s\t]*)\/{2}\s*?bower:\s*?(\S*))(\n|\r|.)*?(\/{2}\s*endbower)/gi,
+            detect: {
+              js: /'(.*\.js)'/gi
+            },
+            replace: {
+              js: '\'{{filePath}}\','
+            }
+          }
+        }
       }
     },
 

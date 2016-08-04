@@ -7,8 +7,13 @@
  * # Controller for the about page
  */
 angular.module('myAppMain')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', function ($scope, MainService) {
 
+    this.awesomeThings = [
+      'Angular',
+      'Bower',
+      'Karma'
+    ];
     $scope.todoList = ['Clean', 'Bake'];
 
 
@@ -30,37 +35,21 @@ angular.module('myAppMain')
       }
     };
 
-    this.x = '2';
-    var self = this;
-    this.function = function () {
-      console.log(self.x);
+    // Simple promise
+    $scope.resolvePromise = function () {
+      MainService.sampleAsync().then(function (greeting) {
+        alert('Success: ' + greeting);
+      }, function (reason) {
+        alert('Failed: ' + reason);
+      });
     };
 
-
-    /*
-    $scope.name = 'Success!';
-    $scope.alert = function () {
-      alert('Hello');
+    $scope.resolveDefer = function () {
+      MainService.sampleDefer().then(function (greeting) {
+        alert('Success: ' + greeting);
+      }, function (reason) {
+        alert('Failed: ' + reason);
+      });
     };
-
-    $scope.random = function () {
-      var array = [
-        'apples',
-        'pears',
-        'oranges',
-        'peaches',
-        'pugs',
-        'carrots',
-        'chocolate'
-      ];
-
-      var index = Math.floor(Math.random() * 6);
-
-      return array[index];
-    };
-    */
-
-
-
 
   });

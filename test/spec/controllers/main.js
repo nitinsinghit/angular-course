@@ -1,9 +1,18 @@
-'use strict';
+
+/*'use strict';
 
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('sampleReferenceApp'));
+  beforeEach(module('myApp'));
+  beforeEach(module('myAppAbout',
+    'myAppContact',
+    'myAppMain',
+    'myAppHeader',
+    'myAppFooter',
+    'myAppShopping',
+    'myAppShoppingCustom',
+    'myAppChat'));
 
   var MainCtrl,
     scope;
@@ -21,3 +30,4 @@ describe('Controller: MainCtrl', function () {
     expect(MainCtrl.awesomeThings.length).toBe(3);
   });
 });
+*/

@@ -22,7 +22,8 @@ angular.module('myApp', [
     'myAppHeader',
     'myAppFooter',
     'myAppShopping',
-    'myAppShoppingCustom'
+    'myAppShoppingCustom',
+    'myAppChat'
   ])
   .directive('app', function () {
     return {

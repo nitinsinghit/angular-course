@@ -3,7 +3,16 @@
 describe('Controller: AboutCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('sampleReferenceApp'));
+
+  /*
+  beforeEach(module('myAppAbout',
+    'myAppContact',
+    'myAppMain',
+    'myAppHeader',
+    'myAppFooter',
+    'myAppShopping',
+    'myAppShoppingCustom',
+    'myAppChat'));*/
 
   var AboutCtrl,
     scope;

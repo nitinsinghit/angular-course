@@ -1,0 +1,20 @@
+<h2>WebSocket Test</h2>
+Connection: {{ Messages.status() }}
+<form ng-submit="submit(new_message)">
+  <input type="text" ng-model="username">
+  <input type="text" ng-model="new_message" autofocus required>
+  <button type="submit">Send Message</button>
+</form>
+<div ng-repeat="message in Messages.collection | orderBy:'-timeStamp' track by $index">
+  <b>{{ message.username | capitalize }}</b>:
+  <small>{{ message.timeStamp | date:'medium' }}</small>
+  <br>
+  {{ message.content }}
+  <br>
+  <br>
+</div>
+
+<!-- Socket Server will attach output info to this div -->
+<div id="output">
+
+</div>

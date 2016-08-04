@@ -41,13 +41,17 @@
 <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
 <script src="bower_components/angular-touch/angular-touch.js"></script>
 <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-websocket/dist/angular-websocket.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 
+<!-- Web Socket Server -->
+<script src="socket-server/web-socket-server.js"></script>
 <!-- injector:js -->
 <script src="scripts/app.js"></script>
 <script src="scripts/router.js"></script>
 <script src="scripts/components/about/about-module.js"></script>
+<script src="scripts/components/chat/chat-module.js"></script>
 <script src="scripts/components/contact/contact-module.js"></script>
 <script src="scripts/components/footer/footer-module.js"></script>
 <script src="scripts/components/header/header-module.js"></script>
@@ -59,6 +63,9 @@
 <script src="scripts/components/about/factory/user-factory.js"></script>
 <script src="scripts/components/about/filters/telephone-filter.js"></script>
 <script src="scripts/components/about/services/about-service.js"></script>
+<script src="scripts/components/chat/controllers/chat-controller.js"></script>
+<script src="scripts/components/chat/factories/messages-factory.js"></script>
+<script src="scripts/components/chat/filters/capitalize-filter.js"></script>
 <script src="scripts/components/contact/controllers/contact-controller.js"></script>
 <script src="scripts/components/contact/factories/author-factory.js"></script>
 <script src="scripts/components/contact/services/contact-service.js"></script>
@@ -77,6 +84,7 @@
 <script src="scripts/components/shopping/filter/uppercase-filter.js"></script>
 <script src="scripts/components/shopping/services/shopping-service.js"></script>
 <script src="scripts/misc/dependency-injection/sample.js"></script>
+<script src="socket-server/web-socket-server.js"></script>
 <!-- endinjector -->
 </body>
 </html>

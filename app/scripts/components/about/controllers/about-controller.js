@@ -9,6 +9,11 @@
 angular.module('myAppAbout')
   .controller('AboutCtrl', function ($scope, User, AboutService) {
 
+    this.awesomeThings = [
+      'Angular',
+      'Bower',
+      'Karma'
+    ];
     this.userCreated = false;
     var self = this;
     $scope.awesomeThings = [

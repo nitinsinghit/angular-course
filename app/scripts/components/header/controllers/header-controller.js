@@ -36,6 +36,11 @@ angular.module('myAppHeader')
         name: 'Custom Shopping',
         sref: 'shop-custom.plp',
         url: '/shop-custom/product-landing-page'
+      },
+      {
+        name: 'Chat',
+        sref: 'chat',
+        url: '/chat'
       }
     ];
 
