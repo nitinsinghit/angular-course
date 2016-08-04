@@ -18,10 +18,18 @@ module.exports = function(config) {
       'bower_components/angular-websocket/dist/angular-websocket.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
+
+      //Main App
       'app/scripts/app.js',
       'app/scripts/router.js',
+
+      // Module definitions
       'app/scripts/**/*-module.js',
+
+      // All Source files
       'app/scripts/**/*.js',
+
+      //Test files
       'test/mock/**/*.js',
       'test/spec/**/*.js'
     ],

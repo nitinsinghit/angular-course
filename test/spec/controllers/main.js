@@ -7,13 +7,13 @@ describe('Controller: MainCtrl', function () {
   beforeEach(module('myAppMain'));
 
   var MainCtrl,
-    scope;
+    myScope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
-    scope = $rootScope.$new();
+    myScope = $rootScope.$new();
     MainCtrl = $controller('MainCtrl', {
-      $scope: scope
+      $scope: myScope
       // place here mocked dependencies
     });
   }));
