@@ -1,4 +1,8 @@
 angular.module('myApp')
-  .directive('ClippyCtrl', function ($window) {
+  .directive('clippy', function () {
+    return {
+      controller: 'ClippyCtrl',
+      template: '<span></span>'
+    };
 
   });

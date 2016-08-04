@@ -9,11 +9,6 @@
 angular.module('myAppMain')
   .controller('MainCtrl', function ($scope, $window, MainService) {
 
-    $window.clippy.load('Merlin', function(agent){
-      // do anything with the loaded agent
-      agent.show();
-    });
-
     this.awesomeThings = [
       'Angular',
       'Bower',

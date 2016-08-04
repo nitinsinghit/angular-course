@@ -101,6 +101,11 @@ module.exports = function (grunt) {
           open: true,
           middleware: function (connect) {
             return [
+              function (req, res, next) {
+                res.setHeader('Access-Control-Allow-Origin', 'http://localhost:9000');
+                res.setHeader('Access-Control-Allow-Methods', '*');
+                next();
+              },
               serveStatic('.tmp'),
               connect().use(
                 '/bower_components',
