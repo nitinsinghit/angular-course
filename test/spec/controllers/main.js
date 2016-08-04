@@ -1,18 +1,10 @@
-
-/*'use strict';
+'use strict';
 
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('myApp'));
-  beforeEach(module('myAppAbout',
-    'myAppContact',
-    'myAppMain',
-    'myAppHeader',
-    'myAppFooter',
-    'myAppShopping',
-    'myAppShoppingCustom',
-    'myAppChat'));
+
+  beforeEach(module('myAppMain'));
 
   var MainCtrl,
     scope;
@@ -26,8 +18,10 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
+  it('It should be defined', function () {
+    expect(MainCtrl).toBeDefined();
+  });
+  it('should attach a list of awesomeThings to the controller', function () {
     expect(MainCtrl.awesomeThings.length).toBe(3);
   });
 });
-*/

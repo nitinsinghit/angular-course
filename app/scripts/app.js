@@ -29,4 +29,11 @@ angular.module('myApp', [
     return {
       templateUrl: 'scripts/app.html'
     };
+  })
+  .controller('MyCtrl', function ($scope) {
+    this.items = [
+      'one',
+      'two',
+      'three'
+    ]
   });

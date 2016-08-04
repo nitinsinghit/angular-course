@@ -11,4 +11,5 @@ angular.module('myAppAbout')
           return response.statusText;
         });
     };
+
   });
