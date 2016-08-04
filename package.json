@@ -38,6 +38,7 @@
     "karma-junit-reporter": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.1",
     "phantomjs-prebuilt": "^2.1.9",
+    "protractor": "^4.0.2",
     "serve-static": "^1.11.1",
     "time-grunt": "^1.4.0"
   },
@@ -45,8 +46,14 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "karma start test/karma.conf.js",
-    "server": "node server/server.js"
+    "test": "karma start karma.conf.js",
+    "server": "node server/server.js",
+    "pretest": "npm install",
+    "test-single-run": "karma start karma.conf.js --single-run",
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update",
+    "preprotractor": "npm run update-webdriver",
+    "protractor": "protractor test/e2e/protractor.conf.js"
   },
   "dependencies": {
     "body-parser": "^1.15.2",

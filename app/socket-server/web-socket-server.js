@@ -1,7 +1,7 @@
 var wsUri = 'ws://echo.websocket.org/';
 var output;
 function init() {
-  output = document.getElementById('output');
+  output = document.getElementById('output'); //<div id="output"></div>
   testWebSocket();
 }
 function onOpen(evt) {
@@ -22,6 +22,10 @@ function doSend(message) {
   writeToScreen('SENT: ' + message);
   websocket.send(message);
 }
+
+
+
+//
 function writeToScreen(message) {
   var pre = document.createElement('p');
   pre.style.wordWrap = 'break-word';
