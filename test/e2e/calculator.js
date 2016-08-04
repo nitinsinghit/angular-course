@@ -1,15 +1,15 @@
 /**
  * Created by MWA01_01 on 8/4/2016.
  */
-//'use strict';
-//
-//describe('my app', function() {
-//
-//
-//  it('should show correct value on add', function() {
-//    browser.get('index.html');
-//    expect(browser.getLocationAbsUrl()).toMatch("/calculator");
-//  });
+'use strict';
+
+  describe('my app', function() {
+
+
+    it('should show correct value on add', function() {
+      browser.get('index.html');
+      expect(browser.getLocationAbsUrl()).toMatch("/calculator");
+    });
 
 
   //describe('view1', function() {
@@ -41,5 +41,5 @@
   //  });
   //
   //});
-//});
+});
 
