@@ -1,6 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var cors = require('cors');
+var request = require('request');
 
 var app = express();
 
@@ -13,6 +14,19 @@ app.get('/contact', function (req, res) {
   console.log('Contact pinged');
   res.json(contactInfo);
   //res.send(contactInfo);
+});
+
+// Make changes for the ruter app
+app.get('/sample', function (req, res) {
+  var time = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '')
+  var options = {
+    url: 'http://reisapi.ruter.no/StopVisit/GetDepartures/3010648?datetime=' + time,
+    method: 'GET',
+    json: true
+  };
+  request(options, function (error, response, body) {
+    res.json(body);
+  });
 });
 
 app.post('/message', function (req, res) {
