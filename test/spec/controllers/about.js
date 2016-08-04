@@ -46,6 +46,6 @@ describe('Controller: AboutCtrl', function () {
       expect(response.email).toBe('patrick.opie@deliote.com');
       expect(response.active).toBe(true);
       expect(response.dogs.length).toBe(4);
-    });*
+    });*/
   });
 });
