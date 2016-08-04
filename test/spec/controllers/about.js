@@ -40,10 +40,10 @@ describe('Controller: AboutCtrl', function () {
   it('should return contact information from the server', function () {
     /*myAboutService.getContactInfo().then(function (response) {
       console.log(response);
-      expect(response.name).toBe('Patrick Opie');
+      expect(response.name).toBe('Matthew Ghen');
       expect(response.id).toBe(111);
       expect(response.phone).toBe('1238889999');
-      expect(response.email).toBe('patrick.opie@deliote.com');
+      expect(response.email).toBe('PiroGhendi@yahoo.com');
       expect(response.active).toBe(true);
       expect(response.dogs.length).toBe(4);
     });*/
