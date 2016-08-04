@@ -5,3 +5,5 @@
 /bower_components
 /.idea
 npm-debug.log
+
+/report

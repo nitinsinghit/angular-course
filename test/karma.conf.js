@@ -1,5 +1,5 @@
 //jshint strict: false
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
 
     basePath: '../',
@@ -44,10 +44,21 @@ module.exports = function(config) {
       'karma-chrome-launcher',
       'karma-firefox-launcher',
       'karma-jasmine',
-      'karma-junit-reporter'
+      'karma-junit-reporter',
+      'karma-coverage'
     ],
+    reporters: [],
+    preprocessors: {
+      'app/scripts/**/*.js': ['coverage']
+    },
+
+    coverageReporter: {
+      type: 'lcov',
+      dir: 'report/coverage-report/'
+    },
 
     junitReporter: {
+      outputDir: 'report',
       outputFile: 'test_out/unit.xml',
       suite: 'unit'
     }
