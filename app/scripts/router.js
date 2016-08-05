@@ -49,11 +49,17 @@ angular.module('myApp')
         template: '<ui-view>'
       })
       // Define state 'ivu-loto'
-      .state('shop-ivu-loto', {
+      // .state('shop-ivu-loto', {
+      //   url: '/ivuloto',
+      //   controller: 'IvuCtrl',
+      //   templateUrl: 'scripts/components/ivuloto/views/numbers-landing-page.html'
+      // })
+      .state('ivuloto', {
         url: '/ivuloto',
-        controller: 'IvuCtrl',
-        templateUrl: 'scripts/components/ivuloto/views/numbers-landing-page.html'
-      });
+        abstract: true,
+        template: '<ui-view>'
+      })
+      ;
 
 
     // Set default route

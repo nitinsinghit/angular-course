@@ -3,6 +3,11 @@ Component Idea
 IVU Loto Winning Number Checker
     to do list to store numbers
     check backend for winning numbers
+    pagination
+    search (filter)
+
+TODO:
+    My numbers (same as the To Do List example)
 
 Horoscope App
     button tells information by gender and age randomly
@@ -10,3 +15,13 @@ Horoscope App
     nearest physics
 
 
+[
+  '{{repeat(200, 7)}}',
+  {
+    "drawingDate": '{{date(new Date(2016, 0, 1), new Date(), "YYYY-MM-dd")}}',
+    "ivuNumber": '{{Math.random().toString(36).substring(2,7).toUpperCase()+"-"+Math.random().toString(36).substring(2,7).toUpperCase()}}',
+    "storeName": '{{company().toUpperCase()}}',
+    "city": '{{random("San Juan", "Ponce", "Mayaguez", "Caguas", "Bayamon", "Rincon", "Vieques", "Culebra", "Fajardo")}}',
+    "prizeAmount": '{{random(100,500,1000,5000)}}'
+    }
+]
