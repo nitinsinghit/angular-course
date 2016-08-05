@@ -47,6 +47,12 @@ angular.module('myApp')
         url: '/shop-custom',
         abstract: true,
         template: '<ui-view>'
+      })
+      // Define state 'contacts-custom'
+      .state('contacts-custom', {
+        url: '/contacts-custom',
+        templateUrl: 'scripts/components/contacts-custom/views/contacts-custom.html',
+        controller: 'ContactCtrl'
       });
 
 

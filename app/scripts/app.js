@@ -10,6 +10,8 @@ angular.module('myApp', [
     // Vendor
     'ngAnimate',
     'ngCookies',
+    'ngMessages',
+    'ngMaterial',
     'ngResource',
     'ui.router',
     'ngSanitize',
@@ -23,7 +25,8 @@ angular.module('myApp', [
     'myAppFooter',
     'myAppShopping',
     'myAppShoppingCustom',
-    'myAppChat'
+    'myAppChat',
+    'myAppContactCustom'
   ])
   .directive('app', function () {
     return {
