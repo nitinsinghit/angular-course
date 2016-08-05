@@ -18,9 +18,6 @@ angular.module('myIvu', [])
       .state('ivuloto.mynumbers', {
         url: '/my-numbers',
         templateUrl:'scripts/components/ivuloto/views/my-numbers-page.html',
-        controller: 'IvuUserCtrl',
-        params : {
-          obj: null
-        }
+        controller: 'IvuUserCtrl'
       })
   });

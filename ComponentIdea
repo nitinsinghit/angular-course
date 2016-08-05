@@ -1,20 +1,15 @@
 Component Idea
 
 IVU Loto Winning Number Checker
-    to do list to store numbers
-    check backend for winning numbers
-    pagination
-    search (filter)
+    to do list to store numbers -- done
+    check backend for winning numbers -- done
+    pagination -- done
+    search (filter) -- done
 
 TODO:
-    My numbers (same as the To Do List example)
+    My numbers (same as the To Do List example) -- done
 
     Initialize my numbers in home page and pass them
-
-Horoscope App
-    button tells information by gender and age randomly
-
-    nearest physics
 
 
 [

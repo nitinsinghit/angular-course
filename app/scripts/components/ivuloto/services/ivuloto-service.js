@@ -13,7 +13,6 @@ angular.module('myIvu')
       return $http.get('scripts/components/ivuloto/services/winning-numbers.json')
         .then(
           function success(response) {
-            console.log(response.data);
             return {
               data: response.data,
               error: null

@@ -2,11 +2,11 @@ angular.module('myIvu')
   .controller('IvuUserCtrl', function ($scope, $state, IvuService) {
       $scope.item = '';
       $scope.myNumbers = ['1234-abcd', 'ABCD-AS12D'];
-      $scope.winningNumbers = [
-        {
-          ivuNumber: 'ABCD-AS12D',
-          prize: 50
-        }];
+      // $scope.winningNumbers = [
+      //   {
+      //     ivuNumber: 'ABCD-AS12D',
+      //     prize: 50
+      //   }];
       $scope.myPrizes = [];
       $scope.cashWon = 0;
 
@@ -32,6 +32,7 @@ angular.module('myIvu')
       };
 
       $scope.getPrizes = function () {
+        getWinningNumbers();
         $scope.myPrizes = [];
         $scope.cashWon = 0;
         for (var i=1; i < $scope.myNumbers.length; i++){
@@ -39,10 +40,24 @@ angular.module('myIvu')
           for(var key in $scope.winningNumbers){  
             if($scope.winningNumbers[key].ivuNumber == $scope.myNumbers[i]){
               $scope.myPrizes.push($scope.winningNumbers[key]);
-              $scope.cashWon += $scope.winningNumbers[key].prize;
+              $scope.cashWon += $scope.winningNumbers[key].prizeAmount;
             }
           }
         }
       };
-    
+
+      this.init = function(){
+        getWinningNumbers();
+      }
+      function getWinningNumbers(){
+          IvuService.getNumbers()
+            .then(function(response){
+                if(response.error)
+                    console.log(response.error);
+                else
+                    $scope.winningNumbers = response.data;
+            });
+      }
+
+      this.init();
 });
