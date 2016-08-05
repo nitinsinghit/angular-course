@@ -7,6 +7,7 @@ angular.module('myAppComics')
       getComics();
     }
 
+    $scope.comics = [];
     $scope.comicIndex = 0;
 
     $scope.comicFirst = function () {
