@@ -47,6 +47,12 @@ angular.module('myApp')
         url: '/shop-custom',
         abstract: true,
         template: '<ui-view>'
+      })
+      // Define state 'map'
+      .state('map', {
+        url: '/map',
+        templateUrl: 'scripts/components/map/views/map.html',
+        controller: 'MapCtrl'
       });
 
 
