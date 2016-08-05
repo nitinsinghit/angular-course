@@ -38,6 +38,11 @@ angular.module('myAppHeader')
         url: '/shop-custom/product-landing-page'
       },
       {
+        name: 'Comics',
+        sref: 'comics',
+        url: '/comics'
+      },
+      {
         name: 'Chat',
         sref: 'chat',
         url: '/chat'

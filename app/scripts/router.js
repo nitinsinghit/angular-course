@@ -47,6 +47,11 @@ angular.module('myApp')
         url: '/shop-custom',
         abstract: true,
         template: '<ui-view>'
+      })
+      .state('comics', {
+        url: '/comics',
+        templateUrl: 'scripts/components/comics/views/comics-view.html',
+        controller: 'ComicsCtrl'
       });
 
 

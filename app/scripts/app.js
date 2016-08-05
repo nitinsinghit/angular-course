@@ -23,6 +23,7 @@ angular.module('myApp', [
     'myAppFooter',
     'myAppShopping',
     'myAppShoppingCustom',
+    'myAppComics',
     'myAppChat'
   ])
   .directive('app', function () {

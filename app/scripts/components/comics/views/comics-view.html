@@ -1,0 +1,30 @@
+<style>
+  #comicButtons {margin: auto; display: block; text-align: center;}
+  #myImageDiv img {margin: auto; display: block;}
+  #myImageDiv .comicTitle {text-align: center;}
+  #myImageDiv .comicAuthor {text-align: right;}
+</style>
+<div id="comicButtons">
+  <a type="button" id="comic-first-button" class="btn btn-default">
+    <span class="glyphicon glyphicon-triangle-left" ng-click="comicFirst()"></span>
+  </a>
+  <a type="button" id="comic-last-button" class="btn btn-default">
+    <span class="glyphicon glyphicon-menu-left" ng-click="comicPrev()"></span>
+  </a>
+  <a type="button" id="comic-next-button" class="btn btn-default">
+    <span class="glyphicon glyphicon-menu-right" ng-click="comicNext()"></span>
+  </a>
+  <a type="button" id="comic-last-button" class="btn btn-default">
+    <span class="glyphicon glyphicon-triangle-right" ng-click="comicLast()"></span>
+  </a>
+</div>
+<div id="myImageDiv">
+  <p class="comicTitle">
+    {{comics[comicIndex].title}}
+  </p>
+  <img ng-src="{{comics[comicIndex].url}}" alt="{{comics[comicIndex].url}}">
+  <p class="comicAuthor">
+    <br>
+    by {{comics[comicIndex].author}}
+  </p>
+</div>
