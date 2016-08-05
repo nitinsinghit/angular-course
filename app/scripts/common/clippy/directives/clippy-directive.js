@@ -2,7 +2,7 @@ angular.module('myApp')
   .directive('clippy', function () {
     return {
       controller: 'ClippyCtrl',
-      template: '<span></span>'
+      templateUrl: 'scripts/common/clippy/views/clippy.html'
     };
 
   });
