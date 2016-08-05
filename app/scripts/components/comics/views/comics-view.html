@@ -20,6 +20,7 @@
 </div>
 <div id="myImageDiv">
   <p class="comicTitle">
+    <br>
     {{comics[comicIndex].title}}
   </p>
   <img ng-src="{{comics[comicIndex].url}}" alt="{{comics[comicIndex].url}}">
@@ -27,4 +28,19 @@
     <br>
     by {{comics[comicIndex].author}}
   </p>
+</div>
+<div id="comicButtons">
+  <a type="button" id="comic-first-button" class="btn btn-default" ng-click="comicFirst()">
+    <span class="glyphicon glyphicon-triangle-left"></span>
+  </a>
+  <a type="button" id="comic-last-button" class="btn btn-default" ng-click="comicPrev()">
+    <span class="glyphicon glyphicon-menu-left"></span>
+  </a>
+  <a type="button" id="comic-next-button" class="btn btn-default" ng-click="comicNext()">
+    <span class="glyphicon glyphicon-menu-right"></span>
+  </a>
+  <a type="button" id="comic-last-button" class="btn btn-default" ng-click="comicLast()">
+    <span class="glyphicon glyphicon-triangle-right"></span>
+  </a>
+  <p><br></p>
 </div>
