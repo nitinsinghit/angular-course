@@ -13,7 +13,7 @@ https://www.linkedin.com/pulse/creating-style-mapbox-studio-lon-phelps?trk=prof-
 https://a.tiles.mapbox.com/v4/puzzleboks.l434jjj9/page.html?access_token=pk.eyJ1IjoicHV6emxlYm9rcyIsImEiOiI3VERYTHI0In0.Tzm7kzevYPXkHdxfckoWfA#12/40.6990/-73.9850
 
 ## Issues:
-Getting the Mapbox Api URL correct
+Getting the Mapbox API URL correct
 
 
 
