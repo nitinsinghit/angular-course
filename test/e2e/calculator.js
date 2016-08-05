@@ -6,9 +6,28 @@
   describe('my app', function() {
 
 
-    it('should show correct value on add', function() {
+    it('should show correct path for main page', function() {
       browser.get('index.html');
+      expect(browser.getLocationAbsUrl()).toMatch("/main");
+    });
+
+    it('should show correct path on navigating calculator tab', function() {
+      browser.get('index.html#calculator');
       expect(browser.getLocationAbsUrl()).toMatch("/calculator");
+    });
+
+    it('should show correct value on sum', function() {
+      browser.get('index.html#calculator');
+      expect(browser.getLocationAbsUrl()).toMatch("/calculator");
+      element(by.id("first")).sendKeys("1");
+      element(by.id("second")).sendKeys("2");
+      element(by.buttonText('=')).click();
+      //firstNumber.sendKeys("1");
+      //secondNumber.sendKeys("2");
+      //element(by.buttonText('+')).click();
+      //expect(element(by.id('result'))).toMatch('3');
+
+
     });
 
 
