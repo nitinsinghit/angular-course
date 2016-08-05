@@ -23,7 +23,8 @@ angular.module('myApp', [
     'myAppFooter',
     'myAppShopping',
     'myAppShoppingCustom',
-    'myAppChat'
+    'myAppChat',
+    'myAppPlay'
   ])
   .directive('app', function () {
     return {

@@ -47,6 +47,11 @@ angular.module('myApp')
         url: '/shop-custom',
         abstract: true,
         template: '<ui-view>'
+      })
+      .state('play', {
+        url: '/play',
+        templateUrl: 'scripts/components/play/views/play.html',
+        controller: 'PlayCtrl'
       });
 
 
