@@ -44,7 +44,6 @@
 //
 //};
 
-// Add the calculator-controller to module
 
 
 angular.module('myAppCalculator')
@@ -74,6 +73,7 @@ angular.module('myAppCalculator')
       $scope.firstNumber = "";
       $scope.secondNumber = "";
       $scope.result = "";
+      $scope.op = '+';
     };
 
     $scope.operators = {
@@ -85,29 +85,6 @@ angular.module('myAppCalculator')
     $scope.op = '+';
     $scope.calc = calc;
 
-    //$scope.calculator = calculatorModel;
-    //$scope.numberButtonClicked = function(clickedNumber) {
-    //  if(calculatorModel.currentNumber === "0") {
-    //    calculatorModel.currentNumber = "";
-    //    calculatorModel.currentDisplay = "";
-    //  }
-    //
-    //  calculatorModel.currentNumber += clickedNumber;
-    //  calculatorModel.currentDisplay += clickedNumber;
-    //};
-    //
-    //$scope.operationButtonClicked = function(clickedOperation) {
-    //  calculatorModel.setOperation(clickedOperation);
-    //};
-    //
-    //$scope.enterClicked = function() {
-    //  calculatorModel.calculate();
-    //  calculatorModel.currentDisplay = calculatorModel.result;
-    //};
-    //
-    //$scope.resetClicked = function() {
-    //  calculatorModel.reset();
-    //};
 
   });
 

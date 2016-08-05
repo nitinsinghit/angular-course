@@ -21,7 +21,7 @@
       expect(browser.getLocationAbsUrl()).toMatch("/calculator");
       element(by.id("first")).sendKeys("1");
       element(by.id("second")).sendKeys("2");
-      element(by.buttonText('=')).click();
+      element(by.buttonText('Calculate')).click();
       //firstNumber.sendKeys("1");
       //secondNumber.sendKeys("2");
       //element(by.buttonText('+')).click();
