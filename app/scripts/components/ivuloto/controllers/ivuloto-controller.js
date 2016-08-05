@@ -7,7 +7,7 @@
  * # Controller for the IVU Loto page
  */
 angular.module('myIvu')
-  .controller('IvuCtrl', function ($scope, IvuService) {
+  .controller('IvuCtrl', function ($scope, $state, IvuService) {
       
       this.init = function(){
           getWinningNumbers();
