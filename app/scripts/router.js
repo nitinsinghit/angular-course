@@ -47,6 +47,12 @@ angular.module('myApp')
         url: '/shop-custom',
         abstract: true,
         template: '<ui-view>'
+      })
+      // Define state 'ivu-loto'
+      .state('shop-ivu-loto', {
+        url: '/ivuloto',
+        controller: 'IvuCtrl',
+        templateUrl: 'scripts/components/ivuloto/views/numbers-landing-page.html'
       });
 
 

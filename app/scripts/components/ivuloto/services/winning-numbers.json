@@ -1,0 +1,23 @@
+[
+    {
+        "drawingDate": "2016-01-01",
+        "ivuNumber": "HUN9C-9JTZB",
+        "storeName": "Su Tienda Mopar",
+        "city": "San Juan",
+        "prizeAmount": 500
+    },
+    {
+        "drawingDate": "2016-01-01",
+        "ivuNumber": "HUN9C-9JTZB",
+        "storeName": "Su Tienda Mopar",
+        "city": "San Juan",
+        "prizeAmount": 1000
+    },
+    {
+        "drawingDate": "2016-01-01",
+        "ivuNumber": "HUN9C-9JTZB",
+        "storeName": "Su Tienda Mopar",
+        "city": "San Juan",
+        "prizeAmount": 5000
+    }
+]

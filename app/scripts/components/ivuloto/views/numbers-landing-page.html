@@ -1,0 +1,28 @@
+<h2>IVU Loto Winning Numbers</h2>
+<div class="numbers-info">
+
+  <label> Search: <input ng-model="searchText"> </label>
+  <table class="table">
+    <thead class="thead-default">
+      <th>Drawing Date</th>
+      <th>Winning Number</th>
+      <th>Store Name</th>
+      <th>City</th>
+      <th>Prize</th>
+    </thead>
+
+    <tbody>
+      <tr dir-paginate="n in winningNumbers
+                          | filter:searchText
+                          | itemsPerPage:2">
+          <td>{{ n.drawingDate }} </td>
+          <td>{{ n.ivuNumber }} </td>
+          <td>{{ n.storeName }} </td>
+          <td>{{ n.city }} </td>
+          <td>{{ n.prizeAmount }} </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <dir-pagination-controls></dir-pagination-controls>
+</div> 
