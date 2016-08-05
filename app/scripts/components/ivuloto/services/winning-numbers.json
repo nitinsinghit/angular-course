@@ -2315,5 +2315,12 @@
     "storeName": "FANGOLD",
     "city": "Rincon",
     "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-08-27",
+    "ivuNumber": "M5F41-NC1E4",
+    "storeName": "SU TIENDA MOPAR",
+    "city": "San Juan",
+    "prizeAmount": 500
   }
 ]

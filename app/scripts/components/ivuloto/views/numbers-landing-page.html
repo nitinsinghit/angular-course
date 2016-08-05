@@ -23,11 +23,11 @@
 </nav>
 
   <div class="input-group">
-      <input ng-model="searchText" type="text" class="form-control" placeholder="Search...">
+    <input ng-model="searchText" type="text" class="form-control" placeholder="Search...">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></button>
       </span>
-    </div><!-- /input-group -->
+  </div><!-- /input-group -->
   <br>
   <table class="table">
     <thead class="thead-default">
@@ -46,10 +46,15 @@
           <td>{{ n.ivuNumber }} </td>
           <td>{{ n.storeName }} </td>
           <td>{{ n.city }} </td>
-          <td>{{ n.prizeAmount }} </td>
+          <td>{{ n.prizeAmount | currency}} </td>
       </tr>
     </tbody>
   </table>
+  
+  <div ng-show="(winningNumbers | filter:searchText).length == 0" class="alert alert-danger" role="alert">
+    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+    <span class="sr-only">No Results</span> No Results
+  </div>
 
   <center><dir-pagination-controls></dir-pagination-controls></center>
 </div> 

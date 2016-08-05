@@ -1,6 +1,48 @@
-<h1> My Numbers Page </h1>
 <span ui-sref="ivuloto.home" class="glyphicon glyphicon-chevron-left"></span>
 
-<div ng-repeat="n in myNumbers">
-  <p>{{ n }}</p>
-</div>
+<h4> My Prizes <span ng-click="getPrizes()" class="glyphicon glyphicon-refresh" aria-hidden="true"></span></h4>
+<table class="table">
+    <thead class="thead-default">
+      <th>Winning Number</th>
+      <th>Prize</th>
+    </thead>
+    <tbody>
+      <tr ng-repeat="n in myPrizes">
+        <td> {{ n.ivuNumber }} </td>
+        <td> {{ n.prize | currency }} </td>
+      </tr>
+      <tr>
+        <td>Total cash won</td>
+        <td ng-show="cashWon > 0"> {{cashWon | currency}} </td>
+        <td ng-show="cashWon == 0"><img src="http://rs304.pbsrc.com/albums/nn180/4chanRus/Awesome%20Face/1213841779552.png~c200" alt="..."></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4> My Numbers</h4>
+  
+  <div class="input-group">
+    <input ng-model="ivuItem" type="text" class="form-control" placeholder="Add number to list">
+      <span class="input-group-btn">
+        <button class="btn btn-default" ng-click="addNumber(ivuItem)" type="button"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></button>
+      </span>
+  </div><!-- /input-group -->
+  <br>
+  <table class="table">
+    <thead class="thead-default">
+      <th> Entry #</th>
+      <th> IVU Loto Number</th>
+      <th> Action </th>
+    </thead>
+    <tbody>
+      <tr ng-repeat="n in myNumbers"> 
+        <td> {{ myNumbers.indexOf(n) + 1 }}
+        <td> {{ n }} </td>
+        <td> <span ng-click="removeNumber(n)" class="glyphicon glyphicon-trash" aria-hidden="true"></span> </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div ng-repeat="n in myPrizes"> 
+        {{ n.ivuNumber }}
+  </div>
