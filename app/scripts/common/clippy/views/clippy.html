@@ -1,0 +1,9 @@
+<div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Helper<span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li ng-repeat="character in characters"><a ng-click="activate(character)" href="#">{{character}}</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a ng-click="activate('Clippy')">Clippy</a></li>
+  </ul>
+</div>
