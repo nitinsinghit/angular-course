@@ -5,3 +5,7 @@ angular.module('myAppFooter')
       controller: 'FooterCtrl'
     };
   });
+
+
+
+

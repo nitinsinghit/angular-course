@@ -30,17 +30,28 @@
   .btn-reset:hover,.btn-reset:focus{
     color:#ebebeb;
   }
+
+  #right-content {
+    position: relative;
+  }
+  #right-content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
 </style>
 
 <div class="offset4 span6 well">
+
+  <form name="myForm">
   <label>Enter a value :</label>
-  <input id="first" ng-model="firstNumber" type="text" ng-focus='isNotTBFocused="firstNumber"'>{{(isNotTBFocused==="firstNumber")?'!':''}}
+  <input id="first" ng-model="firstNumber" type="text" ng-focus='isNotTBFocused="firstNumber"' required>{{(isNotTBFocused==="firstNumber")?'!':''}}
   <br/>
   <br>
 
 
   <label>Another Value:</label>
-  <input id="second" ng-model="secondNumber" type="text" ng-focus='isNotTBFocused="secondNumber"'>{{(isNotTBFocused==="secondNumber")?'!':''}}
+  <input id="second" ng-model="secondNumber" type="text" ng-focus='isNotTBFocused="secondNumber"' required>{{(isNotTBFocused==="secondNumber")?'!':''}}
   <br/>
   <br>
 
@@ -59,4 +70,19 @@
   <br>
   <br><label id="result">Result: {{result}} </label>
   <br><button class="btn btn-reset btn-lg btn3d" ng-click="reset()">Reset</button>
+  <br>
+  <br>
+  <div id="right-content">
+    <datepicker date-format="yyyy-MM-dd" selector="form-control">
+      <div class="input-group">
+        <input class="form-control" placeholder="Choose a date"/>
+        <span class="input-group-addon" style="cursor: pointer">
+        <i class="fa fa-lg fa-calendar"></i>
+        </span>
+      </div>
+    </datepicker>
+  </div>
+    </form>
 </div>
+
+

@@ -4,7 +4,7 @@
 
 'use strict';
 
-angular.module('myAppCalculator', [])
+angular.module('myAppCalculator', ['720kb.datepicker'])
   .config(function (){
     //Do some work
   });
