@@ -59,5 +59,21 @@
     "body-parser": "^1.15.2",
     "cors": "^2.7.1",
     "express": "^4.14.0"
-  }
+  },
+  "description": "## Build & development",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1337Programming/angular-course"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1337Programming/angular-course/issues"
+  },
+  "homepage": "https://github.com/1337Programming/angular-course"
 }
