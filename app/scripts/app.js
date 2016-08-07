@@ -7,28 +7,30 @@
  * Main module of the application.
  */
 angular.module('myApp', [
-    // Vendor
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ui.router',
-    'ngSanitize',
-    'ngTouch',
-    'angularUtils.directives.dirPagination',
+  // Vendor
+  'ngAnimate',
+  'ngCookies',
+  'ngResource',
+  'ui.router',
+  'ngSanitize',
+  'ngTouch',
+  'angularUtils.directives.dirPagination',
+  'leaflet-directive',
 
-    // Src Modules
-    'myAppAbout',
-    'myAppContact',
-    'myAppMain',
-    'myAppHeader',
-    'myAppFooter',
-    'myAppShopping',
-    'myAppShoppingCustom',
-    'myAppChat',
-    'myIvu',
-    'myAppPlay',
-    'myAppComics'
-  ])
+  // Src Modules
+  'myAppAbout',
+  'myAppContact',
+  'myAppMain',
+  'myAppHeader',
+  'myAppFooter',
+  'myAppShopping',
+  'myAppShoppingCustom',
+  'myAppChat',
+  'myIvu',
+  'myAppPlay',
+  'myAppComics',
+  'myAppMap'
+])
   .directive('app', function () {
     return {
       templateUrl: 'scripts/app.html'

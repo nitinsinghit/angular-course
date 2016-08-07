@@ -68,6 +68,12 @@ angular.module('myApp')
         url: '/comics',
         templateUrl: 'scripts/components/comics/views/comics-view.html',
         controller: 'ComicsCtrl'
+      })
+      // Define state 'map'
+      .state('map', {
+        url: '/map',
+        templateUrl: 'scripts/components/map/views/map.html',
+        controller: 'MapCtrl'
       });
 
 
