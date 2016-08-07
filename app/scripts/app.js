@@ -26,7 +26,8 @@ angular.module('myApp', [
     'myAppShoppingCustom',
     'myAppChat',
     'myIvu',
-    'myAppPlay'
+    'myAppPlay',
+    'myAppComics'
   ])
   .directive('app', function () {
     return {

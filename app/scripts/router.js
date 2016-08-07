@@ -63,6 +63,11 @@ angular.module('myApp')
         url: '/play',
         templateUrl: 'scripts/components/play/views/play.html',
         controller: 'PlayCtrl'
+      })
+      .state('comics', {
+        url: '/comics',
+        templateUrl: 'scripts/components/comics/views/comics-view.html',
+        controller: 'ComicsCtrl'
       });
 
 
