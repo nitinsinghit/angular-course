@@ -10,7 +10,7 @@ angular.module('myApp')
 
     // Define routes in main application using stateProvider
     $stateProvider
-      // Define state 'main'
+    // Define state 'main'
       .state('main', {
         url: '/main',
         templateUrl: 'scripts/components/main/views/main.html',
@@ -59,7 +59,11 @@ angular.module('myApp')
         abstract: true,
         template: '<ui-view>'
       })
-      ;
+      .state('play', {
+        url: '/play',
+        templateUrl: 'scripts/components/play/views/play.html',
+        controller: 'PlayCtrl'
+      });
 
 
     // Set default route

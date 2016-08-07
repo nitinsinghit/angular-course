@@ -46,6 +46,11 @@ angular.module('myAppHeader')
         name: 'Ivuloto',
         sref: 'ivuloto.home',
         url: '/ivuloto/home'
+      },
+      {
+        name: 'Play',
+        sref: 'play',
+        url: '/play'
       }
     ];
 

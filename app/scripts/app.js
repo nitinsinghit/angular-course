@@ -15,7 +15,7 @@ angular.module('myApp', [
     'ngSanitize',
     'ngTouch',
     'angularUtils.directives.dirPagination',
-    
+
     // Src Modules
     'myAppAbout',
     'myAppContact',
@@ -25,7 +25,8 @@ angular.module('myApp', [
     'myAppShopping',
     'myAppShoppingCustom',
     'myAppChat',
-    'myIvu'
+    'myIvu',
+    'myAppPlay'
   ])
   .directive('app', function () {
     return {
