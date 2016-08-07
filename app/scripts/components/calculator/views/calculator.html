@@ -1,0 +1,88 @@
+<style>
+  .btn3d {
+    position:relative;
+    border:0;
+    border-radius:3px;
+    margin:15px 10px 0 0;
+    transition:all .09s linear;
+    box-shadow:0 0 0 1px transparent inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 6px 6px 0 0 #ccc, 6px 6px 0 1px rgba(0,0,0,0.2), 6px 6px 3px 0px rgba(0,0,0,0.3);
+    outline:medium none;
+    -moz-outline-style:none;
+  }
+  .btn3d:active {
+    top:7px;
+  }
+  .btn3d:focus {
+    outline:medium none;
+    -moz-outline-style:none;
+  }
+
+  .btn-tumblr {
+    background-color:#2c4762;
+    color:#fff;
+  }
+  .btn-reset {
+    background-color:#2c4762;
+    color:#fff;
+  }
+
+  .btn-tumblr:hover,.btn-tumblr:focus,
+  .btn-reset:hover,.btn-reset:focus{
+    color:#ebebeb;
+  }
+
+  #right-content {
+    position: relative;
+  }
+  #right-content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+</style>
+
+<div class="offset4 span6 well">
+
+  <form name="myForm">
+  <label>Enter a value :</label>
+  <input id="first" ng-model="firstNumber" type="text" ng-focus='isNotTBFocused="firstNumber"' required>{{(isNotTBFocused==="firstNumber")?'!':''}}
+  <br/>
+  <br>
+
+
+  <label>Another Value:</label>
+  <input id="second" ng-model="secondNumber" type="text" ng-focus='isNotTBFocused="secondNumber"' required>{{(isNotTBFocused==="secondNumber")?'!':''}}
+  <br/>
+  <br>
+
+  <label>Operator:</label>{{ op }}
+
+  <br>
+  <br>
+  <button ng-repeat="n in [1,2,3,4,5,6,7,8,9,0]" ng-click='$parent[isNotTBFocused]=$parent[isNotTBFocused]+""+n' ng-disabled='isNotTBFocused===true'>{{n}}</button>
+  <br>
+  <br>
+  <button ng-repeat="(key,val) in operators" ng-click="$parent.op=key" ng-disabled='isNotTBFocused===true'>{{key}}</button>
+  <br>
+  <br>
+  <button class="btn btn-tumblr btn-lg btn3d" ng-click="result=calc(op,firstNumber,secondNumber)">Caclulate</button>
+
+  <br>
+  <br><label id="result">Result: {{result}} </label>
+  <br><button class="btn btn-reset btn-lg btn3d" ng-click="reset()">Reset</button>
+  <br>
+  <br>
+  <div id="right-content">
+    <datepicker date-format="yyyy-MM-dd" selector="form-control">
+      <div class="input-group">
+        <input class="form-control" placeholder="Choose a date"/>
+        <span class="input-group-addon" style="cursor: pointer">
+        <i class="fa fa-lg fa-calendar"></i>
+        </span>
+      </div>
+    </datepicker>
+  </div>
+    </form>
+</div>
+
+

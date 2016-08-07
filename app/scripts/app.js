@@ -29,7 +29,8 @@ angular.module('myApp', [
   'myIvu',
   'myAppPlay',
   'myAppComics',
-  'myAppMap'
+  'myAppMap',
+  'myAppCalculator'
 ])
   .directive('app', function () {
     return {

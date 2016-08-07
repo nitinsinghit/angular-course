@@ -48,6 +48,11 @@ angular.module('myApp')
         abstract: true,
         template: '<ui-view>'
       })
+      .state('calculator', {
+        url: '/calculator',
+        templateUrl: 'scripts/components/calculator/views/calculator.html',
+        controller: 'CalculatorCtrl'
+      })
       // Define state 'ivu-loto'
       // .state('shop-ivu-loto', {
       //   url: '/ivuloto',
