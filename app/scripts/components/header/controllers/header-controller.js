@@ -41,6 +41,11 @@ angular.module('myAppHeader')
         name: 'Chat',
         sref: 'chat',
         url: '/chat'
+      },
+      {
+        name: 'Ivuloto',
+        sref: 'ivuloto.home',
+        url: '/ivuloto/home'
       }
     ];
 
