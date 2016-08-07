@@ -17,6 +17,7 @@ module.exports = function (config) {
       'bower_components/angular-ui-router/release/angular-ui-router.js',
       'bower_components/angular-websocket/dist/angular-websocket.js',
       'bower_components/angular-utils-pagination/dirPagination.js',
+      'bower_components/leaflet-dist/leaflet.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
 

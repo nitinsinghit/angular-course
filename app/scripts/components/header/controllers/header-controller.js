@@ -56,6 +56,11 @@ angular.module('myAppHeader')
         name: 'Play',
         sref: 'play',
         url: '/play'
+      },
+      {
+        name: 'Map',
+        sref: 'map',
+        url: '/map'
       }
     ];
 
