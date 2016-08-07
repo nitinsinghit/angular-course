@@ -7,7 +7,7 @@
  * # Controller for the about page
  */
 angular.module('myAppMain')
-  .controller('MainCtrl', function ($scope, MainService) {
+  .controller('MainCtrl', function ($scope, $window, MainService) {
 
     this.awesomeThings = [
       'Angular',

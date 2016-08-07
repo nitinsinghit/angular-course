@@ -10,7 +10,7 @@ angular.module('myApp')
 
     // Define routes in main application using stateProvider
     $stateProvider
-      // Define state 'main'
+    // Define state 'main'
       .state('main', {
         url: '/main',
         templateUrl: 'scripts/components/main/views/main.html',
@@ -52,6 +52,33 @@ angular.module('myApp')
         url: '/calculator',
         templateUrl: 'scripts/components/calculator/views/calculator.html',
         controller: 'CalculatorCtrl'
+      })
+      // Define state 'ivu-loto'
+      // .state('shop-ivu-loto', {
+      //   url: '/ivuloto',
+      //   controller: 'IvuCtrl',
+      //   templateUrl: 'scripts/components/ivuloto/views/numbers-landing-page.html'
+      // })
+      .state('ivuloto', {
+        url: '/ivuloto',
+        abstract: true,
+        template: '<ui-view>'
+      })
+      .state('play', {
+        url: '/play',
+        templateUrl: 'scripts/components/play/views/play.html',
+        controller: 'PlayCtrl'
+      })
+      .state('comics', {
+        url: '/comics',
+        templateUrl: 'scripts/components/comics/views/comics-view.html',
+        controller: 'ComicsCtrl'
+      })
+      // Define state 'map'
+      .state('map', {
+        url: '/map',
+        templateUrl: 'scripts/components/map/views/map.html',
+        controller: 'MapCtrl'
       });
 
 

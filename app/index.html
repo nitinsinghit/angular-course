@@ -2,13 +2,14 @@
 <html ng-app="myApp">
 <head>
   <meta charset="utf-8">
-  <title>Patrick's Sample App</title>
+  <title>Sample App</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <!-- build:css(.) styles/vendor.css -->
   <!-- injector:css -->
   <link rel="stylesheet" href="scripts/components/about/views/about.css">
+  <link rel="stylesheet" href="scripts/components/play/views/play.css">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/shopping.css">
   <link rel="stylesheet" href="../bower_components/angular/angular-csp.css">
@@ -18,17 +19,18 @@
   <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../bower_components/clippyjs/build/clippy.css">
+  <link rel="stylesheet" href="../bower_components/clippyjs/src/clippy.css">
   <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../bower_components/fullcalendar/dist/fullcalendar.css">
-  <link rel="stylesheet" href="../bower_components/fullcalendar/dist/fullcalendar.min.css">
-  <link rel="stylesheet" href="../bower_components/fullcalendar/dist/fullcalendar.print.css">
+  <link rel="stylesheet" href="../bower_components/leaflet-dist/leaflet.css">
   <!-- endinjector -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
   <!-- endbuild -->
 </head>
 <body>
+
 
 <div>
   <app></app>
@@ -48,8 +50,11 @@
 <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 <script src="bower_components/angular-websocket/dist/angular-websocket.js"></script>
 <script src="bower_components/angularjs-datepicker/dist/angular-datepicker.min.js"></script>
+<script src="bower_components/angular-utils-pagination/dirPagination.js"></script>
+<script src="bower_components/leaflet-dist/leaflet.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
+<script src="bower_components/clippyjs/build/clippy.js"></script>
 
 <!-- Web Socket Server -->
 <script src="socket-server/web-socket-server.js"></script>
@@ -59,12 +64,18 @@
 <script src="scripts/components/about/about-module.js"></script>
 <script src="scripts/components/calculator/calculator-module.js"></script>
 <script src="scripts/components/chat/chat-module.js"></script>
+<script src="scripts/components/comics/comics-module.js"></script>
 <script src="scripts/components/contact/contact-module.js"></script>
 <script src="scripts/components/footer/footer-module.js"></script>
 <script src="scripts/components/header/header-module.js"></script>
+<script src="scripts/components/ivuloto/ivuloto-module.js"></script>
 <script src="scripts/components/main/main-module.js"></script>
+<script src="scripts/components/map/map-module.js"></script>
+<script src="scripts/components/play/play-module.js"></script>
 <script src="scripts/components/shopping-custom/shopping-custom-module.js"></script>
 <script src="scripts/components/shopping/shopping-module.js"></script>
+<script src="scripts/common/clippy/controllers/clippy-controller.js"></script>
+<script src="scripts/common/clippy/directives/clippy-directive.js"></script>
 <script src="scripts/common/core/app-constants.js"></script>
 <script src="scripts/components/about/controllers/about-controller.js"></script>
 <script src="scripts/components/about/factories/user-factory.js"></script>
@@ -74,6 +85,8 @@
 <script src="scripts/components/chat/controllers/chat-controller.js"></script>
 <script src="scripts/components/chat/factories/messages-factory.js"></script>
 <script src="scripts/components/chat/filters/capitalize-filter.js"></script>
+<script src="scripts/components/comics/controllers/comics-controller.js"></script>
+<script src="scripts/components/comics/services/comics-service.js"></script>
 <script src="scripts/components/contact/controllers/contact-controller.js"></script>
 <script src="scripts/components/contact/factories/author-factory.js"></script>
 <script src="scripts/components/contact/services/contact-service.js"></script>
@@ -81,8 +94,15 @@
 <script src="scripts/components/footer/directives/footer-directive.js"></script>
 <script src="scripts/components/header/controllers/header-controller.js"></script>
 <script src="scripts/components/header/directives/header-directive.js"></script>
+<script src="scripts/components/ivuloto/controllers/ivuloto-controller.js"></script>
+<script src="scripts/components/ivuloto/controllers/ivuloto-mynumbers-controller.js"></script>
+<script src="scripts/components/ivuloto/services/ivuloto-service.js"></script>
 <script src="scripts/components/main/controllers/main-controller.js"></script>
 <script src="scripts/components/main/services/main-services.js"></script>
+<script src="scripts/components/map/controllers/map-controller.js"></script>
+<script src="scripts/components/map/directives/angular-leaflet-directive.min.js"></script>
+<script src="scripts/components/play/controllers/play-controller.js"></script>
+<script src="scripts/components/play/services/play-service.js"></script>
 <script src="scripts/components/shopping-custom/controllers/payment-page-controller.js"></script>
 <script src="scripts/components/shopping-custom/controllers/product-details-page-controller.js"></script>
 <script src="scripts/components/shopping-custom/controllers/product-landing-page-controller.js"></script>

@@ -38,6 +38,11 @@ angular.module('myAppHeader')
         url: '/shop-custom/product-landing-page'
       },
       {
+        name: 'Comics',
+        sref: 'comics',
+        url: '/comics'
+      },
+      {
         name: 'Chat',
         sref: 'chat',
         url: '/chat'
@@ -47,6 +52,21 @@ angular.module('myAppHeader')
         sref: 'calculator',
         url: '/calculator'
       },
+      {
+        name: 'Ivuloto',
+        sref: 'ivuloto.home',
+        url: '/ivuloto/home'
+      },
+      {
+        name: 'Play',
+        sref: 'play',
+        url: '/play'
+      },
+      {
+        name: 'Map',
+        sref: 'map',
+        url: '/map'
+      }
     ];
 
     $scope.isActive = function (viewLocation) {

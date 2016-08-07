@@ -1,0 +1,2326 @@
+[
+  {
+    "drawingDate": "2016-04-16",
+    "ivuNumber": "POWLN-EBWOA",
+    "storeName": "IMAGINART",
+    "city": "Rincon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-01-26",
+    "ivuNumber": "R315G-G616W",
+    "storeName": "DENTREX",
+    "city": "Ponce",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-13",
+    "ivuNumber": "NF66L-IFY2E",
+    "storeName": "DANJA",
+    "city": "Fajardo",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-23",
+    "ivuNumber": "SG0ZX-4A69C",
+    "storeName": "HANDSHAKE",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-03-30",
+    "ivuNumber": "U6670-VS5RI",
+    "storeName": "LETPRO",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-18",
+    "ivuNumber": "HJOC5-C5W90",
+    "storeName": "ANACHO",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-06",
+    "ivuNumber": "IMX9Z-YAYMZ",
+    "storeName": "PRIMORDIA",
+    "city": "San Juan",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-07",
+    "ivuNumber": "SQZCW-558UO",
+    "storeName": "MYOPIUM",
+    "city": "San Juan",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-04-15",
+    "ivuNumber": "2KY0U-F29KE",
+    "storeName": "RECRISYS",
+    "city": "Culebra",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-07-09",
+    "ivuNumber": "8HRQ5-31YTP",
+    "storeName": "QUORDATE",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-07-21",
+    "ivuNumber": "C44Z0-K1AP8",
+    "storeName": "STRALUM",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-03-10",
+    "ivuNumber": "K57V4-OVDQW",
+    "storeName": "REVERSUS",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-07-09",
+    "ivuNumber": "LOIU6-0OCE4",
+    "storeName": "UNQ",
+    "city": "Mayaguez",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-06-22",
+    "ivuNumber": "2EULI-80YKY",
+    "storeName": "XSPORTS",
+    "city": "Ponce",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-03-14",
+    "ivuNumber": "VOZT5-3P0HP",
+    "storeName": "ISOTRACK",
+    "city": "Vieques",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-01-11",
+    "ivuNumber": "3XOYP-U8XUL",
+    "storeName": "VENDBLEND",
+    "city": "Bayamon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-03-13",
+    "ivuNumber": "0MW6Q-KAS20",
+    "storeName": "COMBOGENE",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-16",
+    "ivuNumber": "DHTFC-BRDZT",
+    "storeName": "ROCKLOGIC",
+    "city": "Ponce",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-16",
+    "ivuNumber": "HSKLZ-H7Z42",
+    "storeName": "RADIANTIX",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-02-21",
+    "ivuNumber": "R5M93-RHUFQ",
+    "storeName": "PAPRICUT",
+    "city": "Fajardo",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-28",
+    "ivuNumber": "OQOGU-QSTIN",
+    "storeName": "COMTRAK",
+    "city": "Bayamon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-03-26",
+    "ivuNumber": "UQU1H-91GBR",
+    "storeName": "ONTAGENE",
+    "city": "Bayamon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-28",
+    "ivuNumber": "RYJ82-8OE0K",
+    "storeName": "XUMONK",
+    "city": "San Juan",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-02-28",
+    "ivuNumber": "N9ULC-K78EN",
+    "storeName": "KEENGEN",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-06-29",
+    "ivuNumber": "62FMU-X9PIO",
+    "storeName": "OVERFORK",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-05",
+    "ivuNumber": "0547C-KIIMH",
+    "storeName": "VELITY",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-20",
+    "ivuNumber": "FHNR6-DX0BL",
+    "storeName": "DOGNOST",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-02-15",
+    "ivuNumber": "6VGBO-T8WT1",
+    "storeName": "ZENTIA",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-17",
+    "ivuNumber": "XEY44-TIEJ9",
+    "storeName": "COMTOURS",
+    "city": "Culebra",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-20",
+    "ivuNumber": "YMDH2-YOZJ5",
+    "storeName": "COMVEY",
+    "city": "Culebra",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-05",
+    "ivuNumber": "MTXH9-MXM5C",
+    "storeName": "MULTIFLEX",
+    "city": "Vieques",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-07-14",
+    "ivuNumber": "DJLP9-Z1QNM",
+    "storeName": "BUNGA",
+    "city": "San Juan",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-28",
+    "ivuNumber": "YXMZ3-XT59D",
+    "storeName": "KOFFEE",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-08-02",
+    "ivuNumber": "92KHL-Z4PJ7",
+    "storeName": "TALKALOT",
+    "city": "Ponce",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-25",
+    "ivuNumber": "2TI6R-4L316",
+    "storeName": "JUMPSTACK",
+    "city": "Caguas",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-03-02",
+    "ivuNumber": "NONCZ-TR2LH",
+    "storeName": "KNOWLYSIS",
+    "city": "Mayaguez",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-20",
+    "ivuNumber": "W1MAH-QA2EX",
+    "storeName": "ZANITY",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-02",
+    "ivuNumber": "Y1YSG-OGNAB",
+    "storeName": "TERRAGO",
+    "city": "Rincon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-01-28",
+    "ivuNumber": "0IVN5-19D2H",
+    "storeName": "NIXELT",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-25",
+    "ivuNumber": "LMGLM-TLLWV",
+    "storeName": "SNACKTION",
+    "city": "Culebra",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-07-14",
+    "ivuNumber": "UA5DI-BWV3R",
+    "storeName": "BITREX",
+    "city": "Fajardo",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-19",
+    "ivuNumber": "8SCL5-DBA7X",
+    "storeName": "ACIUM",
+    "city": "Culebra",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-03-30",
+    "ivuNumber": "DIGAA-EY7OX",
+    "storeName": "ANARCO",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-27",
+    "ivuNumber": "FSKVD-SQEXI",
+    "storeName": "ENOMEN",
+    "city": "Caguas",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-02",
+    "ivuNumber": "1G1C7-NVG60",
+    "storeName": "TWIIST",
+    "city": "Culebra",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-21",
+    "ivuNumber": "EHCSL-JFJQE",
+    "storeName": "XTH",
+    "city": "Bayamon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-26",
+    "ivuNumber": "U1NF3-3T9UF",
+    "storeName": "OTHERWAY",
+    "city": "Fajardo",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-25",
+    "ivuNumber": "2KH0K-2Y917",
+    "storeName": "VIAGREAT",
+    "city": "Caguas",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-03-03",
+    "ivuNumber": "E6IS1-51792",
+    "storeName": "REMOLD",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-02-16",
+    "ivuNumber": "XVRB3-E1XZV",
+    "storeName": "FROSNEX",
+    "city": "San Juan",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-31",
+    "ivuNumber": "9E33K-25JE6",
+    "storeName": "ECLIPTO",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-22",
+    "ivuNumber": "P9JI7-6OQYO",
+    "storeName": "SIGNIDYNE",
+    "city": "Vieques",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-03-22",
+    "ivuNumber": "SRR67-W5296",
+    "storeName": "DYMI",
+    "city": "Mayaguez",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-07-14",
+    "ivuNumber": "6QOJR-9RMEK",
+    "storeName": "STROZEN",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-03-20",
+    "ivuNumber": "BA12X-IB8RS",
+    "storeName": "EXOZENT",
+    "city": "Culebra",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-27",
+    "ivuNumber": "9O6Q5-FQYSG",
+    "storeName": "EXOVENT",
+    "city": "Rincon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-07-30",
+    "ivuNumber": "ZT8VK-AFW77",
+    "storeName": "OPTICOM",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-06-07",
+    "ivuNumber": "PC3NT-6UPZH",
+    "storeName": "GEOFORM",
+    "city": "Bayamon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-07",
+    "ivuNumber": "T2HHP-W4X1L",
+    "storeName": "ISOSWITCH",
+    "city": "Fajardo",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-07-24",
+    "ivuNumber": "YPCL2-YL83E",
+    "storeName": "FITCORE",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-28",
+    "ivuNumber": "VXNG3-Q307N",
+    "storeName": "SONIQUE",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-07",
+    "ivuNumber": "OAP34-9IT1O",
+    "storeName": "EZENT",
+    "city": "Mayaguez",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-04",
+    "ivuNumber": "LPA82-5E23J",
+    "storeName": "PLASMOSIS",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-03-07",
+    "ivuNumber": "F5BAP-TKPIG",
+    "storeName": "ORBIXTAR",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-16",
+    "ivuNumber": "8U51S-NKFH0",
+    "storeName": "STEELTAB",
+    "city": "Ponce",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-02-29",
+    "ivuNumber": "FPR2H-EYKE7",
+    "storeName": "VELOS",
+    "city": "Caguas",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-20",
+    "ivuNumber": "8L0YK-KH9OW",
+    "storeName": "CORPULSE",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-07-06",
+    "ivuNumber": "7WVI1-MWWH1",
+    "storeName": "FLEXIGEN",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-07-18",
+    "ivuNumber": "6ZG7D-6JC54",
+    "storeName": "ICOLOGY",
+    "city": "Ponce",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-01-07",
+    "ivuNumber": "S1D0G-FVRIM",
+    "storeName": "ARTWORLDS",
+    "city": "San Juan",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-09",
+    "ivuNumber": "Y2ITC-X5EKJ",
+    "storeName": "CENTICE",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-09",
+    "ivuNumber": "BDTIB-HOEJK",
+    "storeName": "STREZZO",
+    "city": "Fajardo",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-18",
+    "ivuNumber": "RCI98-NH7QQ",
+    "storeName": "ZENSOR",
+    "city": "Ponce",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-02-21",
+    "ivuNumber": "Z31MI-JDHPK",
+    "storeName": "ORBALIX",
+    "city": "Ponce",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-02-14",
+    "ivuNumber": "SXMIN-J7M85",
+    "storeName": "ZILLACON",
+    "city": "Caguas",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-19",
+    "ivuNumber": "AKPOQ-9S4KG",
+    "storeName": "STEELFAB",
+    "city": "Bayamon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-29",
+    "ivuNumber": "YYCOG-GDPHS",
+    "storeName": "BARKARAMA",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-21",
+    "ivuNumber": "NBQFK-T8PMZ",
+    "storeName": "SULTRAXIN",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-04",
+    "ivuNumber": "OKF8J-97LKU",
+    "storeName": "OLYMPIX",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-26",
+    "ivuNumber": "ZH1CB-729MV",
+    "storeName": "ZENTHALL",
+    "city": "Culebra",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-25",
+    "ivuNumber": "L4UJG-MVWP5",
+    "storeName": "EMTRAK",
+    "city": "San Juan",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-15",
+    "ivuNumber": "GP9YW-WKYRJ",
+    "storeName": "ISIS",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-03-09",
+    "ivuNumber": "Z0WXY-AZ1Z5",
+    "storeName": "UNCORP",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-25",
+    "ivuNumber": "W0I9G-Q1XW3",
+    "storeName": "DAIDO",
+    "city": "Ponce",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-31",
+    "ivuNumber": "ZAVXG-XME6A",
+    "storeName": "MICROLUXE",
+    "city": "Culebra",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-25",
+    "ivuNumber": "EF8RS-6X2TZ",
+    "storeName": "QUONK",
+    "city": "Ponce",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-07-31",
+    "ivuNumber": "ZL2PM-QSASS",
+    "storeName": "ISOPLEX",
+    "city": "Bayamon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-03-29",
+    "ivuNumber": "HJZ47-NLP4I",
+    "storeName": "ZYTRAX",
+    "city": "Rincon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-04-05",
+    "ivuNumber": "TH21Z-X313O",
+    "storeName": "ANIVET",
+    "city": "Culebra",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-15",
+    "ivuNumber": "WA33X-N1NST",
+    "storeName": "ZILLADYNE",
+    "city": "Caguas",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-01-18",
+    "ivuNumber": "0LRWB-GYALS",
+    "storeName": "DIGIQUE",
+    "city": "Mayaguez",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-15",
+    "ivuNumber": "CFCJ3-MQV73",
+    "storeName": "ZENSUS",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-10",
+    "ivuNumber": "7QUEI-ZTOXI",
+    "storeName": "COMTRAIL",
+    "city": "Mayaguez",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-09",
+    "ivuNumber": "WN88G-232DD",
+    "storeName": "MAXEMIA",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-18",
+    "ivuNumber": "KEPZ5-936SW",
+    "storeName": "LUNCHPOD",
+    "city": "Culebra",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-10",
+    "ivuNumber": "TAMAB-HRUDH",
+    "storeName": "OATFARM",
+    "city": "Culebra",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-21",
+    "ivuNumber": "I5J76-L6GWU",
+    "storeName": "MEDIFAX",
+    "city": "San Juan",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-14",
+    "ivuNumber": "TQ67T-XL30K",
+    "storeName": "COSMETEX",
+    "city": "Vieques",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-10",
+    "ivuNumber": "MWXGW-MWVL3",
+    "storeName": "INTRADISK",
+    "city": "San Juan",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-29",
+    "ivuNumber": "G3KVO-BZZGS",
+    "storeName": "BEZAL",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-02-12",
+    "ivuNumber": "MPN6S-R7Y3G",
+    "storeName": "MOTOVATE",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-23",
+    "ivuNumber": "B8GAJ-AJZAR",
+    "storeName": "ECLIPSENT",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-07",
+    "ivuNumber": "XLBAD-02WG0",
+    "storeName": "ENERSAVE",
+    "city": "Culebra",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-22",
+    "ivuNumber": "2KBK3-8GR53",
+    "storeName": "BULLZONE",
+    "city": "Rincon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-04-28",
+    "ivuNumber": "50JVR-3KMN6",
+    "storeName": "EXOTECHNO",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-07-13",
+    "ivuNumber": "JR68N-23LTU",
+    "storeName": "FUELTON",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-25",
+    "ivuNumber": "DMFVU-UJ8N3",
+    "storeName": "QUILK",
+    "city": "Mayaguez",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-03-09",
+    "ivuNumber": "5IMGA-Q5HOD",
+    "storeName": "ZOGAK",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-21",
+    "ivuNumber": "FU5F2-MWIVT",
+    "storeName": "EXOPLODE",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-31",
+    "ivuNumber": "BNNDH-E1ALQ",
+    "storeName": "ZIALACTIC",
+    "city": "Caguas",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-05",
+    "ivuNumber": "MKPZX-V7R1D",
+    "storeName": "ZILLAR",
+    "city": "Ponce",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-27",
+    "ivuNumber": "R3KQ1-GNSYM",
+    "storeName": "AUTOGRATE",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-26",
+    "ivuNumber": "AHAW9-KXRCA",
+    "storeName": "QUILM",
+    "city": "Caguas",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-12",
+    "ivuNumber": "Q3HHD-OYH7P",
+    "storeName": "DEEPENDS",
+    "city": "Ponce",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-06-11",
+    "ivuNumber": "X1DWT-DXEWQ",
+    "storeName": "ZAPHIRE",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-20",
+    "ivuNumber": "4WJ0O-JWJ89",
+    "storeName": "VURBO",
+    "city": "Caguas",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-04",
+    "ivuNumber": "C7SZG-RF933",
+    "storeName": "TURNABOUT",
+    "city": "Mayaguez",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-17",
+    "ivuNumber": "ZGD4A-7HAMY",
+    "storeName": "CENTREXIN",
+    "city": "Mayaguez",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-01-04",
+    "ivuNumber": "NKW0J-WMIXW",
+    "storeName": "MOBILDATA",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-01",
+    "ivuNumber": "ZYD46-51TO9",
+    "storeName": "MARKETOID",
+    "city": "Fajardo",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-12",
+    "ivuNumber": "6KXX7-4N31D",
+    "storeName": "GINKLE",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-01",
+    "ivuNumber": "TWT80-NUYW1",
+    "storeName": "QOT",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-06-03",
+    "ivuNumber": "5HD20-9MXDR",
+    "storeName": "PHARMACON",
+    "city": "Rincon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-29",
+    "ivuNumber": "3WTUN-TR3C9",
+    "storeName": "SOLAREN",
+    "city": "Fajardo",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-16",
+    "ivuNumber": "E980E-09FEY",
+    "storeName": "CYTREX",
+    "city": "San Juan",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-11",
+    "ivuNumber": "ECAOP-4YNG8",
+    "storeName": "VIRXO",
+    "city": "Ponce",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-28",
+    "ivuNumber": "2NRUA-R4KO5",
+    "storeName": "ERSUM",
+    "city": "San Juan",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-02-13",
+    "ivuNumber": "A7QNY-RD2OG",
+    "storeName": "RUBADUB",
+    "city": "Ponce",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-09",
+    "ivuNumber": "UA1DM-ZHCCN",
+    "storeName": "ASSURITY",
+    "city": "Caguas",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-06-27",
+    "ivuNumber": "U96QQ-AJG2I",
+    "storeName": "VERBUS",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-06-07",
+    "ivuNumber": "2T2R8-WJRF1",
+    "storeName": "HELIXO",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-02-11",
+    "ivuNumber": "Y2XIE-OKGYU",
+    "storeName": "FREAKIN",
+    "city": "Fajardo",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-07-24",
+    "ivuNumber": "7R0BI-B4HX0",
+    "storeName": "ZYTREK",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-02-11",
+    "ivuNumber": "B2AVR-KT00Q",
+    "storeName": "SENTIA",
+    "city": "Bayamon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-04",
+    "ivuNumber": "HMM4Y-NL2BM",
+    "storeName": "MINGA",
+    "city": "Vieques",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-16",
+    "ivuNumber": "4I8VD-JZEIL",
+    "storeName": "POLARAX",
+    "city": "Culebra",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-07-06",
+    "ivuNumber": "HPAC1-FNVSV",
+    "storeName": "NURPLEX",
+    "city": "Culebra",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-03-17",
+    "ivuNumber": "ZW6TI-8T0H2",
+    "storeName": "SURELOGIC",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-03-21",
+    "ivuNumber": "68URK-FAVQ5",
+    "storeName": "GEEKMOSIS",
+    "city": "Fajardo",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-06-08",
+    "ivuNumber": "6W1HV-0EDAW",
+    "storeName": "MAGNEMO",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-16",
+    "ivuNumber": "XC9NU-2NIUP",
+    "storeName": "LEXICONDO",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-04",
+    "ivuNumber": "3IIB4-7VA55",
+    "storeName": "ZAYA",
+    "city": "Ponce",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-07-08",
+    "ivuNumber": "XVBVP-4KD09",
+    "storeName": "OPPORTECH",
+    "city": "Fajardo",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-08",
+    "ivuNumber": "4F9F5-CNCAS",
+    "storeName": "ISOLOGICS",
+    "city": "Caguas",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-03-06",
+    "ivuNumber": "O660R-9P9DJ",
+    "storeName": "SONGLINES",
+    "city": "Rincon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-31",
+    "ivuNumber": "HKRBS-9LI7K",
+    "storeName": "DOGNOSIS",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-19",
+    "ivuNumber": "1EO30-REV8A",
+    "storeName": "LINGOAGE",
+    "city": "Vieques",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-02-09",
+    "ivuNumber": "JZFZK-2A66J",
+    "storeName": "UTARIAN",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-15",
+    "ivuNumber": "5RRZX-9IMZ3",
+    "storeName": "SEALOUD",
+    "city": "San Juan",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-06",
+    "ivuNumber": "7DGIW-REU1P",
+    "storeName": "LIQUICOM",
+    "city": "Rincon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-30",
+    "ivuNumber": "PYIDF-4OCR9",
+    "storeName": "NEOCENT",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-19",
+    "ivuNumber": "KUAVL-L76VS",
+    "storeName": "ASSITIA",
+    "city": "Fajardo",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-04",
+    "ivuNumber": "1BBN1-259TM",
+    "storeName": "REPETWIRE",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-01-06",
+    "ivuNumber": "S8XQO-YDJII",
+    "storeName": "ORBIN",
+    "city": "Caguas",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-20",
+    "ivuNumber": "A7GOP-Q1JXA",
+    "storeName": "FANFARE",
+    "city": "Vieques",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-21",
+    "ivuNumber": "IDBIP-XW7FX",
+    "storeName": "VERTIDE",
+    "city": "Fajardo",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-04-21",
+    "ivuNumber": "FWQRX-FQN1Z",
+    "storeName": "PERMADYNE",
+    "city": "Fajardo",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-06",
+    "ivuNumber": "WOQGF-B46AD",
+    "storeName": "HAIRPORT",
+    "city": "San Juan",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-02",
+    "ivuNumber": "KRAJ8-A0KB9",
+    "storeName": "SYBIXTEX",
+    "city": "Culebra",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-07",
+    "ivuNumber": "GCDXK-OOTTA",
+    "storeName": "DIGIGENE",
+    "city": "Mayaguez",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-11",
+    "ivuNumber": "MBS00-MSCN3",
+    "storeName": "SIGNITY",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-11",
+    "ivuNumber": "N98FQ-Q8JAP",
+    "storeName": "GREEKER",
+    "city": "Caguas",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-09",
+    "ivuNumber": "4SZP8-LFRDV",
+    "storeName": "DRAGBOT",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-24",
+    "ivuNumber": "I8RAV-0KV3F",
+    "storeName": "FLOTONIC",
+    "city": "Caguas",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-09",
+    "ivuNumber": "268A0-7BQKX",
+    "storeName": "NETPLODE",
+    "city": "Vieques",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-03",
+    "ivuNumber": "VT2DK-ZHKRT",
+    "storeName": "SCENTY",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-24",
+    "ivuNumber": "0Z9ZY-P3LIV",
+    "storeName": "MEDIOT",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-27",
+    "ivuNumber": "RKU00-XR3HL",
+    "storeName": "GLASSTEP",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-07-19",
+    "ivuNumber": "WXB8P-A6XUF",
+    "storeName": "BRAINQUIL",
+    "city": "San Juan",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-23",
+    "ivuNumber": "551HJ-H163Y",
+    "storeName": "INSECTUS",
+    "city": "Mayaguez",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-14",
+    "ivuNumber": "U8SMJ-5ZQ5N",
+    "storeName": "BLUEGRAIN",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-07-18",
+    "ivuNumber": "S4X1A-58PZP",
+    "storeName": "SOPRANO",
+    "city": "Ponce",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-01-27",
+    "ivuNumber": "MZWJ5-L94HF",
+    "storeName": "LYRIA",
+    "city": "Fajardo",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-17",
+    "ivuNumber": "1BSUM-ROLWF",
+    "storeName": "PYRAMI",
+    "city": "Mayaguez",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-03-26",
+    "ivuNumber": "KOH3T-9LFAO",
+    "storeName": "KANGLE",
+    "city": "Rincon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-01-21",
+    "ivuNumber": "579VR-K32P8",
+    "storeName": "NEBULEAN",
+    "city": "Caguas",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-01-07",
+    "ivuNumber": "1OUGS-RNI94",
+    "storeName": "EXIAND",
+    "city": "Fajardo",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-02-11",
+    "ivuNumber": "UJ42L-Y5ZOY",
+    "storeName": "BIZMATIC",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-07-04",
+    "ivuNumber": "1A719-GPM0P",
+    "storeName": "QIAO",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-03-30",
+    "ivuNumber": "0OZXG-HS4C3",
+    "storeName": "PYRAMIA",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-09",
+    "ivuNumber": "UQH39-OE5O7",
+    "storeName": "EXTRAGEN",
+    "city": "Ponce",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-03-29",
+    "ivuNumber": "31QUB-7WUCV",
+    "storeName": "MAGMINA",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-03-07",
+    "ivuNumber": "TG7H5-T9XWF",
+    "storeName": "TECHADE",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-04-24",
+    "ivuNumber": "DNIV0-K7ISW",
+    "storeName": "GAZAK",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-02-09",
+    "ivuNumber": "J2ML7-FIFMH",
+    "storeName": "ZOINAGE",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-03-24",
+    "ivuNumber": "5OF2H-QR8Z1",
+    "storeName": "PROTODYNE",
+    "city": "Vieques",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-20",
+    "ivuNumber": "ZDPKJ-AWAGF",
+    "storeName": "ENTROPIX",
+    "city": "Culebra",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-16",
+    "ivuNumber": "78HGM-6ZEYD",
+    "storeName": "ZOXY",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-18",
+    "ivuNumber": "1OMO7-DJJZR",
+    "storeName": "ACCUFARM",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-25",
+    "ivuNumber": "DUT26-LXA6P",
+    "storeName": "AMRIL",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-24",
+    "ivuNumber": "USZAB-XJZCI",
+    "storeName": "URBANSHEE",
+    "city": "Ponce",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-12",
+    "ivuNumber": "6MVA0-O2V3X",
+    "storeName": "PAPRIKUT",
+    "city": "Ponce",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-21",
+    "ivuNumber": "ZZJS8-YYITB",
+    "storeName": "INVENTURE",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-01-04",
+    "ivuNumber": "X3BQU-1CQW2",
+    "storeName": "ENTOGROK",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-14",
+    "ivuNumber": "CGCBT-OWLOY",
+    "storeName": "PRISMATIC",
+    "city": "Caguas",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-27",
+    "ivuNumber": "L6WUK-9N4RO",
+    "storeName": "PORTALINE",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-02-13",
+    "ivuNumber": "QID4F-KGZ4V",
+    "storeName": "BISBA",
+    "city": "San Juan",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-01",
+    "ivuNumber": "4L6A9-GISVZ",
+    "storeName": "APPLICA",
+    "city": "Ponce",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-05-13",
+    "ivuNumber": "DZGAU-64PR5",
+    "storeName": "GRACKER",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-08-01",
+    "ivuNumber": "VI516-GL8Y5",
+    "storeName": "RUGSTARS",
+    "city": "Rincon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-27",
+    "ivuNumber": "WLFLC-3I54E",
+    "storeName": "QUAREX",
+    "city": "Bayamon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-01",
+    "ivuNumber": "VIG7Z-K2JUE",
+    "storeName": "ZILLIDIUM",
+    "city": "Culebra",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-06",
+    "ivuNumber": "2GC89-WHAJ2",
+    "storeName": "VIRVA",
+    "city": "Rincon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-20",
+    "ivuNumber": "SWASX-0CDL6",
+    "storeName": "JASPER",
+    "city": "Caguas",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-28",
+    "ivuNumber": "9664Y-IEI84",
+    "storeName": "APEXTRI",
+    "city": "San Juan",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-24",
+    "ivuNumber": "EYKV1-PE0TT",
+    "storeName": "BIOLIVE",
+    "city": "Mayaguez",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-11",
+    "ivuNumber": "74YZ8-ZH1YV",
+    "storeName": "MALATHION",
+    "city": "Ponce",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-19",
+    "ivuNumber": "2ZYJN-OOSKX",
+    "storeName": "FIBEROX",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-27",
+    "ivuNumber": "CQ4JH-O4TRY",
+    "storeName": "IMKAN",
+    "city": "Fajardo",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-17",
+    "ivuNumber": "KI9O5-FAEN4",
+    "storeName": "ZINCA",
+    "city": "Bayamon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-06-12",
+    "ivuNumber": "00ZYN-BRSDU",
+    "storeName": "KOOGLE",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-02-18",
+    "ivuNumber": "6XG9B-6MJ87",
+    "storeName": "SKINSERVE",
+    "city": "Mayaguez",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-03",
+    "ivuNumber": "6J7JW-72YTN",
+    "storeName": "PHOTOBIN",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-10",
+    "ivuNumber": "M0DS8-20ART",
+    "storeName": "SLAX",
+    "city": "Caguas",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-01-10",
+    "ivuNumber": "8N4BH-KEFH2",
+    "storeName": "PHEAST",
+    "city": "Mayaguez",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-14",
+    "ivuNumber": "IKD3G-NFWR0",
+    "storeName": "ELPRO",
+    "city": "San Juan",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-16",
+    "ivuNumber": "5FWAS-T25ZI",
+    "storeName": "SQUISH",
+    "city": "Bayamon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-06-26",
+    "ivuNumber": "JLH9S-3ZOZK",
+    "storeName": "CAXT",
+    "city": "Culebra",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-28",
+    "ivuNumber": "L8BO3-M5X0L",
+    "storeName": "CUBICIDE",
+    "city": "Mayaguez",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-06",
+    "ivuNumber": "75ZV1-ZVUPI",
+    "storeName": "SARASONIC",
+    "city": "Mayaguez",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-06-17",
+    "ivuNumber": "05L6V-W1JMM",
+    "storeName": "INSURON",
+    "city": "Culebra",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-03-03",
+    "ivuNumber": "D5KE1-RPICL",
+    "storeName": "MAINELAND",
+    "city": "Culebra",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-02-10",
+    "ivuNumber": "5X3TO-YSHQH",
+    "storeName": "UNISURE",
+    "city": "Ponce",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-02-28",
+    "ivuNumber": "CRLG7-TMYGU",
+    "storeName": "EVENTIX",
+    "city": "Mayaguez",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-11",
+    "ivuNumber": "QOMV2-XY608",
+    "storeName": "FLEETMIX",
+    "city": "Rincon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-20",
+    "ivuNumber": "QYUBN-DXGXS",
+    "storeName": "MOMENTIA",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-04-07",
+    "ivuNumber": "EOSPI-2HUK5",
+    "storeName": "SPEEDBOLT",
+    "city": "Culebra",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-06",
+    "ivuNumber": "9KB71-UYAVF",
+    "storeName": "DOGTOWN",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-24",
+    "ivuNumber": "72U3E-94VLH",
+    "storeName": "PUSHCART",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-06",
+    "ivuNumber": "LVM2Q-JC5SV",
+    "storeName": "EXOSPEED",
+    "city": "Mayaguez",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-04",
+    "ivuNumber": "TFDGR-MBECZ",
+    "storeName": "XANIDE",
+    "city": "Mayaguez",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-16",
+    "ivuNumber": "NKYRL-CBDQ2",
+    "storeName": "DIGIAL",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-07-16",
+    "ivuNumber": "UNQ7W-QKOYZ",
+    "storeName": "HARMONEY",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-28",
+    "ivuNumber": "X3MP0-AXT6C",
+    "storeName": "SHADEASE",
+    "city": "Mayaguez",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-06",
+    "ivuNumber": "DWGS5-IYZA9",
+    "storeName": "TETAK",
+    "city": "Culebra",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-07-10",
+    "ivuNumber": "AM1S1-D0D1Q",
+    "storeName": "LYRICHORD",
+    "city": "Culebra",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-03-06",
+    "ivuNumber": "AHSH9-TTJTL",
+    "storeName": "KIDSTOCK",
+    "city": "San Juan",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-01-21",
+    "ivuNumber": "ILKFA-4FOSO",
+    "storeName": "ISODRIVE",
+    "city": "San Juan",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-06-18",
+    "ivuNumber": "IVS0B-B5DQM",
+    "storeName": "CUIZINE",
+    "city": "Vieques",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-02-03",
+    "ivuNumber": "J4JG7-D1P86",
+    "storeName": "POWERNET",
+    "city": "San Juan",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-18",
+    "ivuNumber": "LUJX7-JVAA9",
+    "storeName": "KYAGORO",
+    "city": "Culebra",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-05-19",
+    "ivuNumber": "MZZWP-0PSSP",
+    "storeName": "ACCUPHARM",
+    "city": "Ponce",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-19",
+    "ivuNumber": "T2O0A-CQYWK",
+    "storeName": "FLUMBO",
+    "city": "Mayaguez",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-26",
+    "ivuNumber": "JEPLP-KB7YJ",
+    "storeName": "ZANYMAX",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-02-05",
+    "ivuNumber": "E4XYM-XRWKW",
+    "storeName": "WAAB",
+    "city": "Culebra",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-06-30",
+    "ivuNumber": "IZCIN-6I4C4",
+    "storeName": "CORPORANA",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-08-01",
+    "ivuNumber": "ROHRE-R70H2",
+    "storeName": "WARETEL",
+    "city": "Bayamon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-03-30",
+    "ivuNumber": "53TFX-N8M1A",
+    "storeName": "CAPSCREEN",
+    "city": "Mayaguez",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-04",
+    "ivuNumber": "6AWFN-Z3WU7",
+    "storeName": "VANTAGE",
+    "city": "Mayaguez",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-14",
+    "ivuNumber": "UCWLZ-2T5M9",
+    "storeName": "BALOOBA",
+    "city": "San Juan",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-02-02",
+    "ivuNumber": "ED8C2-EJTTM",
+    "storeName": "QUIZMO",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-02-09",
+    "ivuNumber": "I5UIY-T6JF3",
+    "storeName": "UTARA",
+    "city": "Vieques",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-23",
+    "ivuNumber": "U6JQ4-20VBY",
+    "storeName": "TYPHONICA",
+    "city": "Fajardo",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-26",
+    "ivuNumber": "9AO3U-VGFG8",
+    "storeName": "GYNKO",
+    "city": "Caguas",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-01-25",
+    "ivuNumber": "3TJ3G-JMM45",
+    "storeName": "EVENTEX",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-05-05",
+    "ivuNumber": "LCV43-E064Q",
+    "storeName": "XIIX",
+    "city": "Vieques",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-02-29",
+    "ivuNumber": "EJYPN-5TEYI",
+    "storeName": "KAGGLE",
+    "city": "Culebra",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-05-21",
+    "ivuNumber": "0TSM7-AAO8F",
+    "storeName": "ZOARERE",
+    "city": "Fajardo",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-16",
+    "ivuNumber": "5H6VM-QRNA4",
+    "storeName": "RONELON",
+    "city": "Ponce",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-04-23",
+    "ivuNumber": "8RSQR-4XEFN",
+    "storeName": "FLYBOYZ",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-24",
+    "ivuNumber": "9KSS5-I6O66",
+    "storeName": "TUBESYS",
+    "city": "San Juan",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-24",
+    "ivuNumber": "H16GA-JPZE5",
+    "storeName": "OMATOM",
+    "city": "Mayaguez",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-07-29",
+    "ivuNumber": "N0GRG-MOQX2",
+    "storeName": "SKYBOLD",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-02",
+    "ivuNumber": "7NBA8-AF6NP",
+    "storeName": "ZENTRY",
+    "city": "Fajardo",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-30",
+    "ivuNumber": "DYNSI-XVHON",
+    "storeName": "MEGALL",
+    "city": "Caguas",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-13",
+    "ivuNumber": "GH8CR-HD6Y1",
+    "storeName": "INJOY",
+    "city": "Fajardo",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-08",
+    "ivuNumber": "4X6TL-RSHNA",
+    "storeName": "DECRATEX",
+    "city": "San Juan",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-11",
+    "ivuNumber": "IO0ER-6RQBU",
+    "storeName": "AQUAMATE",
+    "city": "Culebra",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-02",
+    "ivuNumber": "B2B7M-V56JK",
+    "storeName": "TURNLING",
+    "city": "Fajardo",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-06",
+    "ivuNumber": "9WUPR-49OGD",
+    "storeName": "GORGANIC",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-02-17",
+    "ivuNumber": "S9M2N-16TIH",
+    "storeName": "SENMAO",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-03-28",
+    "ivuNumber": "FAZGQ-JXKRK",
+    "storeName": "GRONK",
+    "city": "San Juan",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-06-04",
+    "ivuNumber": "9YBZN-TDJLV",
+    "storeName": "JAMNATION",
+    "city": "Culebra",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-23",
+    "ivuNumber": "ZQMDY-3AI73",
+    "storeName": "TROLLERY",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-02-26",
+    "ivuNumber": "07GKS-4WP2E",
+    "storeName": "FIBRODYNE",
+    "city": "Culebra",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-24",
+    "ivuNumber": "R8MZ6-PY1SB",
+    "storeName": "ZILCH",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-06-14",
+    "ivuNumber": "S2GU5-0G38X",
+    "storeName": "VORTEXACO",
+    "city": "San Juan",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-05-28",
+    "ivuNumber": "P3DFN-U2U8Z",
+    "storeName": "ZIORE",
+    "city": "San Juan",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-06-21",
+    "ivuNumber": "J84J6-DBBVB",
+    "storeName": "QUIZKA",
+    "city": "Ponce",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-01-29",
+    "ivuNumber": "072HA-2G3PQ",
+    "storeName": "NETBOOK",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-03",
+    "ivuNumber": "KVBIZ-ZND72",
+    "storeName": "ENERVATE",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-08-03",
+    "ivuNumber": "59YMA-5IYCT",
+    "storeName": "VIASIA",
+    "city": "Ponce",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-05-07",
+    "ivuNumber": "D2R9B-H6MPR",
+    "storeName": "SPRINGBEE",
+    "city": "Vieques",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-01-09",
+    "ivuNumber": "P9Q8K-AAL9V",
+    "storeName": "EQUITOX",
+    "city": "Bayamon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-04-19",
+    "ivuNumber": "LQQHM-2ETEH",
+    "storeName": "VICON",
+    "city": "Mayaguez",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-03-17",
+    "ivuNumber": "HE6AD-J4GWO",
+    "storeName": "NETROPIC",
+    "city": "Culebra",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-08",
+    "ivuNumber": "UFCKU-SRC9O",
+    "storeName": "KNEEDLES",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-03",
+    "ivuNumber": "Q17FN-QYQUT",
+    "storeName": "COMTEXT",
+    "city": "Caguas",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-06-06",
+    "ivuNumber": "O4CEV-8NZWE",
+    "storeName": "DEMINIMUM",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-16",
+    "ivuNumber": "P47LV-V5RM5",
+    "storeName": "HYDROCOM",
+    "city": "Caguas",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-29",
+    "ivuNumber": "212EO-9OTMF",
+    "storeName": "ENORMO",
+    "city": "San Juan",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-29",
+    "ivuNumber": "0MCE4-3XG90",
+    "storeName": "COMVEX",
+    "city": "Ponce",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-02-28",
+    "ivuNumber": "VEGL1-NYPIS",
+    "storeName": "WAZZU",
+    "city": "Rincon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-05-23",
+    "ivuNumber": "JBLEQ-IF6ZA",
+    "storeName": "RETROTEX",
+    "city": "Ponce",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-25",
+    "ivuNumber": "PV35Q-RZA0P",
+    "storeName": "CALLFLEX",
+    "city": "Bayamon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-02-28",
+    "ivuNumber": "Z369R-210XM",
+    "storeName": "GENMOM",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-20",
+    "ivuNumber": "RQ48Q-LVM23",
+    "storeName": "GEEKOSIS",
+    "city": "Vieques",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-28",
+    "ivuNumber": "0KXCD-32MXB",
+    "storeName": "ROCKYARD",
+    "city": "Bayamon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-22",
+    "ivuNumber": "NLSNE-ENQMX",
+    "storeName": "XLEEN",
+    "city": "Rincon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-07-24",
+    "ivuNumber": "Z9QE3-JXG68",
+    "storeName": "PARCOE",
+    "city": "Bayamon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-03-27",
+    "ivuNumber": "P0IOO-3E8V1",
+    "storeName": "ECOSYS",
+    "city": "Bayamon",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-07-01",
+    "ivuNumber": "10LGJ-V2RO9",
+    "storeName": "VIXO",
+    "city": "Ponce",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-03-22",
+    "ivuNumber": "MRHVC-Y7JLN",
+    "storeName": "OVIUM",
+    "city": "Bayamon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-01-25",
+    "ivuNumber": "W7KFN-DMQQR",
+    "storeName": "MANUFACT",
+    "city": "Culebra",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-24",
+    "ivuNumber": "5NTET-DCPEF",
+    "storeName": "KRAG",
+    "city": "Culebra",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-07-26",
+    "ivuNumber": "L7KHR-Z4CTE",
+    "storeName": "PEARLESEX",
+    "city": "Caguas",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-07-14",
+    "ivuNumber": "AYEXC-GJP7I",
+    "storeName": "GENMEX",
+    "city": "Fajardo",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-04-15",
+    "ivuNumber": "9NLVL-AIEL8",
+    "storeName": "ZOLARITY",
+    "city": "Rincon",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-01",
+    "ivuNumber": "14FJI-YLJRR",
+    "storeName": "DIGIRANG",
+    "city": "Fajardo",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-02-18",
+    "ivuNumber": "BF1GT-Y9FBK",
+    "storeName": "AFFLUEX",
+    "city": "Mayaguez",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-06-26",
+    "ivuNumber": "89KA5-T9F8F",
+    "storeName": "PRINTSPAN",
+    "city": "Mayaguez",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-01-03",
+    "ivuNumber": "SW7SC-9OCC2",
+    "storeName": "VERAQ",
+    "city": "Ponce",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-03-25",
+    "ivuNumber": "1QVTB-J3AGL",
+    "storeName": "PETICULAR",
+    "city": "Mayaguez",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-02-07",
+    "ivuNumber": "1YNV9-OR1EI",
+    "storeName": "TALKOLA",
+    "city": "Caguas",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-07-07",
+    "ivuNumber": "P2V87-DC278",
+    "storeName": "EXTREMO",
+    "city": "Culebra",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-04-17",
+    "ivuNumber": "0RER0-NTRAZ",
+    "storeName": "ANDRYX",
+    "city": "Ponce",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-12",
+    "ivuNumber": "YAQ65-HX5OG",
+    "storeName": "MACRONAUT",
+    "city": "Culebra",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-07-29",
+    "ivuNumber": "6QKBI-HMVI1",
+    "storeName": "BUZZNESS",
+    "city": "Culebra",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-08-04",
+    "ivuNumber": "2BWHE-QYZTK",
+    "storeName": "DUFLEX",
+    "city": "Bayamon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-07-24",
+    "ivuNumber": "8UOT4-WYP8B",
+    "storeName": "SHOPABOUT",
+    "city": "San Juan",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-05-04",
+    "ivuNumber": "K88FP-L6X02",
+    "storeName": "XPLOR",
+    "city": "Culebra",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-03-06",
+    "ivuNumber": "5OADI-4A4Z5",
+    "storeName": "EARTHPURE",
+    "city": "Ponce",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-03-04",
+    "ivuNumber": "CNSP6-LD3KB",
+    "storeName": "RODEOLOGY",
+    "city": "Vieques",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-06-21",
+    "ivuNumber": "TDE1R-OXD9D",
+    "storeName": "EQUITAX",
+    "city": "Caguas",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-03-07",
+    "ivuNumber": "SIX1Q-0F9W1",
+    "storeName": "NETAGY",
+    "city": "Bayamon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-17",
+    "ivuNumber": "G5MQZ-WY7II",
+    "storeName": "RODEOCEAN",
+    "city": "Ponce",
+    "prizeAmount": 1000
+  },
+  {
+    "drawingDate": "2016-05-15",
+    "ivuNumber": "U7XUU-E17O4",
+    "storeName": "REMOTION",
+    "city": "Mayaguez",
+    "prizeAmount": 5000
+  },
+  {
+    "drawingDate": "2016-02-01",
+    "ivuNumber": "WRBFR-GRSLO",
+    "storeName": "TALENDULA",
+    "city": "Rincon",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-02-27",
+    "ivuNumber": "M5F31-NC9E4",
+    "storeName": "APPLIDEC",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-04-08",
+    "ivuNumber": "VWODJ-LFGUT",
+    "storeName": "ZAGGLE",
+    "city": "Caguas",
+    "prizeAmount": 500
+  },
+  {
+    "drawingDate": "2016-01-04",
+    "ivuNumber": "CU9OR-FRJIT",
+    "storeName": "FANGOLD",
+    "city": "Rincon",
+    "prizeAmount": 100
+  },
+  {
+    "drawingDate": "2016-08-27",
+    "ivuNumber": "M5F41-NC1E4",
+    "storeName": "SU TIENDA MOPAR",
+    "city": "San Juan",
+    "prizeAmount": 500
+  }
+]

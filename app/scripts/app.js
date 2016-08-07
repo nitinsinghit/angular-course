@@ -7,34 +7,33 @@
  * Main module of the application.
  */
 angular.module('myApp', [
-    // Vendor
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ui.router',
-    'ngSanitize',
-    'ngTouch',
+  // Vendor
+  'ngAnimate',
+  'ngCookies',
+  'ngResource',
+  'ui.router',
+  'ngSanitize',
+  'ngTouch',
+  'angularUtils.directives.dirPagination',
+  'leaflet-directive',
 
-    // Src Modules
-    'myAppAbout',
-    'myAppContact',
-    'myAppMain',
-    'myAppHeader',
-    'myAppFooter',
-    'myAppShopping',
-    'myAppShoppingCustom',
-    'myAppChat',
-    'myAppCalculator'
-  ])
+  // Src Modules
+  'myAppAbout',
+  'myAppContact',
+  'myAppMain',
+  'myAppHeader',
+  'myAppFooter',
+  'myAppShopping',
+  'myAppShoppingCustom',
+  'myAppChat',
+  'myIvu',
+  'myAppPlay',
+  'myAppComics',
+  'myAppMap',
+  'myAppCalculator'
+])
   .directive('app', function () {
     return {
       templateUrl: 'scripts/app.html'
     };
-  })
-  .controller('MyCtrl', function ($scope) {
-    this.items = [
-      'one',
-      'two',
-      'three'
-    ]
   });

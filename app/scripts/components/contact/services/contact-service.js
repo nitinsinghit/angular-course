@@ -11,7 +11,7 @@ angular.module('myAppContact')
 
     console.log(APP_CONSTS.SERVER_URL);
     this.getContactInfo = function () {
-      return $http.get(APP_CONSTS.SERVER_URL + '/contact')
+      return $http.get(APP_CONSTS.SERVER_URL + '/sample')
         .then(
           function successResponse(response) {
             console.log(response.data);
