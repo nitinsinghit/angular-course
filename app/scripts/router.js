@@ -79,6 +79,12 @@ angular.module('myApp')
         url: '/map',
         templateUrl: 'scripts/components/map/views/map.html',
         controller: 'MapCtrl'
+      })
+      // Define state 'contacts-custom'
+      .state('contacts-custom', {
+        url: '/contacts-custom',
+        templateUrl: 'scripts/components/contacts-custom/views/contacts-custom.html',
+        controller: 'ContactCtrl'
       });
 
 

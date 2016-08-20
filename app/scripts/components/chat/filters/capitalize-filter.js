@@ -1,5 +1,5 @@
 /**
- * Created by patrick.opie on 8/3/16.
+ * Created by Matthew.Ghen on 8/3/16.
  */
 
 angular.module('myAppChat')
