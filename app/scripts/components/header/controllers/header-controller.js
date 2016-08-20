@@ -71,6 +71,11 @@ angular.module('myAppHeader')
         name: 'Address Book',
         sref: 'contacts-custom',
         url: '/contacts-custom'
+      },
+      {
+        name: 'Carousel',
+        sref: 'carousel',
+        url: '/carousel'
       }
     ];
 

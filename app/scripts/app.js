@@ -16,6 +16,7 @@ angular.module('myApp', [
   'ngTouch',
   'angularUtils.directives.dirPagination',
   'leaflet-directive',
+  'ui.bootstrap',
 
   // Src Modules
   'myAppAbout',
@@ -31,7 +32,8 @@ angular.module('myApp', [
   'myAppComics',
   'myAppMap',
   'myAppCalculator',
-  'myAppContactCustom'
+  'myAppContactCustom',
+  'myAppCarousel'
 ])
   .directive('app', function () {
     return {

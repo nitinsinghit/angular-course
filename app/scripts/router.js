@@ -85,6 +85,12 @@ angular.module('myApp')
         url: '/contacts-custom',
         templateUrl: 'scripts/components/contacts-custom/views/contacts-custom.html',
         controller: 'ContactCtrl'
+      })
+      .state('carousel', {
+        url: '/carousel',
+        templateUrl: 'scripts/components/carousel/views/carousel.html',
+        css: 'scripts/components/carousel/views/carousel.css',
+        controller: 'CarouselCtrl'
       });
 
 
