@@ -30,7 +30,8 @@ angular.module('myApp', [
   'myAppPlay',
   'myAppComics',
   'myAppMap',
-  'myAppCalculator'
+  'myAppCalculator',
+  'myAppContactCustom'
 ])
   .directive('app', function () {
     return {

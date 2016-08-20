@@ -66,6 +66,11 @@ angular.module('myAppHeader')
         name: 'Map',
         sref: 'map',
         url: '/map'
+      },
+      {
+        name: 'Address Book',
+        sref: 'contacts-custom',
+        url: '/contacts-custom'
       }
     ];
 
